@@ -1,0 +1,7 @@
+{
+  "tiny_decode": {
+    "issue": "Concurrent ZipFile seeks triggered overlap guard; archive MD5 matched and single-thread read succeeded.",
+    "fix": "Archive reads serialized with a lock; JPEG decoding stays parallel. No validation bypass or skipped images.",
+    "at": 1794055501.663888
+  }
+}

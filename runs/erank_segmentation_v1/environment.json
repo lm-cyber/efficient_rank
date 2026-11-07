@@ -1,0 +1,22 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "/home/nasibullin.alan/itmo/.venv-segmentation/bin/python",
+  "platform": "Linux-6.1.0-42-amd64-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.46.3",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.20.3",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "matplotlib": "3.11.0",
+    "Pillow": "10.2.0"
+  },
+  "torch_cuda": "12.1",
+  "cudnn": 90100,
+  "gpu0": "NVIDIA A100 80GB PCIe, GPU-46149a7e-281f-ff07-cde6-a78793e0f997, 580.119.02, 81920 MiB",
+  "threads": 4,
+  "precision": "BF16 autocast; FP32 resize/loss and original parameters",
+  "reproducibility": "cuDNN deterministic, benchmark false; TF32 off; paired per-step RNG; exact bitwise reproducibility of every backward kernel is not promised"
+}

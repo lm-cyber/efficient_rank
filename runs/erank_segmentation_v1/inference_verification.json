@@ -1,0 +1,30 @@
+{
+  "at": 1794058495.8712559,
+  "passed": [
+    {
+      "model": "original",
+      "batch": 1,
+      "inputs_checked": 2,
+      "exact_map_match": true
+    },
+    {
+      "model": "original",
+      "batch": 8,
+      "inputs_checked": 2,
+      "exact_map_match": true
+    },
+    {
+      "model": "uniform_minus20",
+      "batch": 1,
+      "inputs_checked": 2,
+      "exact_map_match": true
+    },
+    {
+      "model": "uniform_minus20",
+      "batch": 8,
+      "inputs_checked": 2,
+      "exact_map_match": true
+    }
+  ],
+  "scope": "Synthetic random inputs and exact prediction-map equality only; no timings recorded"
+}

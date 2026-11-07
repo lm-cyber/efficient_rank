@@ -4,12 +4,14 @@
 *.pth
 /runs/erank_audit_v1/diagnostics/**/*.npz
 /runs/*/smoke/
+/runs/*/feature_cache/
 
 # Python / notebook caches and local environments.
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .venv/
+.venv-*/
 venv/
 .env
 .env.*

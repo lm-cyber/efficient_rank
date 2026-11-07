@@ -1,0 +1,9 @@
+budget,candidate,reference,mean_change_pct,sd_change_pct,ci_low_pct,ci_high_pct,n,family_size,scope
+0.9,erank_sigma_low,erank_sigma_random,0.28373702934318956,0.44554937624441937,-2.9548233117309795,3.5222973704173586,3,8,conditional on one source checkpoint and one calibration split
+0.9,erank_sigma_low,uniform,-0.28604656538798734,0.3168081563458462,-2.588826875661922,2.0167337448859475,3,8,conditional on one source checkpoint and one calibration split
+0.9,erank_cov_low,erank_cov_random,0.04489742731127085,0.24463755227537362,-1.7332971274979778,1.8230919821205194,3,8,conditional on one source checkpoint and one calibration split
+0.9,erank_cov_low,uniform,-5.2172257379889215,0.3892294045643927,-8.046413658365779,-2.3880378176120636,3,8,conditional on one source checkpoint and one calibration split
+0.8,erank_sigma_low,erank_sigma_random,0.019077445719313985,0.0477587090429284,-0.32806580998682716,0.3662207014254551,3,8,conditional on one source checkpoint and one calibration split
+0.8,erank_sigma_low,uniform,-2.5559000131774923,0.25870463425287626,-4.436343827521082,-0.675456198833903,3,8,conditional on one source checkpoint and one calibration split
+0.8,erank_cov_low,erank_cov_random,0.9953962936821344,0.4534307280219023,-2.3004511510476533,4.291243738411922,3,8,conditional on one source checkpoint and one calibration split
+0.8,erank_cov_low,uniform,-5.642409851382187,0.1368257152822534,-6.6369535737576975,-4.647866129006676,3,8,conditional on one source checkpoint and one calibration split

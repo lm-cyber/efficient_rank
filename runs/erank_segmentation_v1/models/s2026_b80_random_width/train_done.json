@@ -1,0 +1,39 @@
+{
+  "task": "s2026_b80_random_width",
+  "seed": 2026,
+  "method": "random_width",
+  "budget": 0.8,
+  "steps": 1500,
+  "best_miou": 28.460393603803002,
+  "best_step": 1500,
+  "training_seconds": 454.41185217536986,
+  "cost": {
+    "params": 9885102,
+    "macs": 12701249536,
+    "flops": 25402499072,
+    "widths": [
+      80,
+      160,
+      48,
+      72,
+      632,
+      568,
+      560,
+      960
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 14.710449351492844,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "at": 1794063451.0379696
+}

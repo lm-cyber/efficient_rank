@@ -1,0 +1,3 @@
+{"step": 500, "train_loss": 1.3251155020594596, "val_miou": 36.84707241963233, "val_pixel_accuracy": 78.28939087108579, "best_miou": 36.84707241963233, "best_step": 500, "learning_rate": 8.117449009293668e-06, "seconds": 153.853168560192}
+{"step": 1000, "train_loss": 0.8127024981379509, "val_miou": 39.49574297220738, "val_pixel_accuracy": 80.24159464108932, "best_miou": 39.49574297220738, "best_step": 1000, "learning_rate": 2.83058130441221e-06, "seconds": 307.88773137610406}
+{"step": 1500, "train_loss": 0.7876307108998298, "val_miou": 39.90748593037938, "val_pixel_accuracy": 80.52178209131274, "best_miou": 39.90748593037938, "best_step": 1500, "learning_rate": 0.0, "seconds": 461.7659998405725}

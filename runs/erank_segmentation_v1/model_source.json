@@ -1,0 +1,11 @@
+{
+  "model": "nvidia/segformer-b1-finetuned-ade-512-512",
+  "revision": "a775b4f5dcb2179e57006dca0e268281306412ef",
+  "at": 1794056712.1787682,
+  "sha256": {
+    "config.json": "8f1b7bcd2e1835ef0ef3a04a0d4dfe87ff9a6374253e7a3ca1751de812a420ff",
+    "preprocessor_config.json": "8039d1d210abaa7117ad78e58cdfd6141a2ec72c03dae891b3cd76737e422c6c",
+    "pytorch_model.bin": "ac49bf62c8c0578dcf17ff048930b4f886ab0bc080d23f5591669afad5ddf7da",
+    "README.md": "30449f8712fba60e9e339ebad427153dc30f56d2477b1705b9f51a9bcf457ed5"
+  }
+}

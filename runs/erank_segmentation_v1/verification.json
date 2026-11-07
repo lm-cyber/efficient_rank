@@ -1,0 +1,40 @@
+{
+  "passed": [
+    "ADE labels: 0 ignored, 1 maps to 0, 150 maps to 149; disjoint train/calibration/selection validation",
+    "image normalization, resize and mask labels match pinned Hugging Face processor",
+    "hand-computed pooled mIoU and pixel accuracy; ignore index excluded",
+    "training sampler and flips reproduce exactly when resuming",
+    "low/random/high quotas match dominant classes and equal sample count",
+    "spectral entropy zero, full and rank-one cases",
+    "strict pretrained state loading; full-width physical slicing preserves logits",
+    "both budgets: physical Linear/depthwise slicing equals masking, exact common MACs, finite BF16 training gradients"
+  ],
+  "measured_cost": {
+    "params": 13715798,
+    "macs": 15878062080,
+    "flops": 31756124160,
+    "widths": [
+      256,
+      256,
+      512,
+      512,
+      1280,
+      1280,
+      2048,
+      2048
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 31.7748060095757,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  }
+}

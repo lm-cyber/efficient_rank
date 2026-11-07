@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "Hand-computed mIoU ratio, parameter/FLOP fractions, and 20% less time = 25% more speed",
+    "Eight seed-paired Bonferroni intervals, rejection of missing seed, undefined zero-SD interval",
+    "Fixed-stratum counts, consistency of stored mIoU with confusion matrices, complete report and figures"
+  ],
+  "at": 1794058435.3981514,
+  "scope": "Artificial temporary fixtures; not scientific results"
+}

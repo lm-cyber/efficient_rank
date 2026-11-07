@@ -1,0 +1,97 @@
+{
+  "measured": {
+    "params": 13715798,
+    "macs": 15878062080,
+    "flops": 31756124160,
+    "widths": [
+      256,
+      256,
+      512,
+      512,
+      1280,
+      1280,
+      2048,
+      2048
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 31.7748060095757,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "budgets": [
+    {
+      "budget": 0.9,
+      "actual_flops_pct": 89.99008120769358,
+      "uniform_widths": [
+        176,
+        176,
+        352,
+        352,
+        872,
+        872,
+        1400,
+        1408
+      ],
+      "alternative_widths": [
+        96,
+        120,
+        288,
+        336,
+        912,
+        1040,
+        1808,
+        1960
+      ],
+      "allocation_info": {
+        "feasible_stage_combinations": 732,
+        "profile_penalty": 6.155170933492186e-05
+      },
+      "alternative_info": {
+        "feasible_stage_combinations": 732,
+        "profile_penalty": 0.00751604442466039
+      }
+    },
+    {
+      "budget": 0.8,
+      "actual_flops_pct": 79.99244159649992,
+      "uniform_widths": [
+        96,
+        96,
+        184,
+        192,
+        472,
+        472,
+        760,
+        760
+      ],
+      "alternative_widths": [
+        64,
+        72,
+        128,
+        152,
+        488,
+        560,
+        1008,
+        1120
+      ],
+      "allocation_info": {
+        "feasible_stage_combinations": 954,
+        "profile_penalty": 0.00019159071474777296
+      },
+      "alternative_info": {
+        "feasible_stage_combinations": 954,
+        "profile_penalty": 0.010072503091817179
+      }
+    }
+  ],
+  "at": 1794056489.5953236
+}

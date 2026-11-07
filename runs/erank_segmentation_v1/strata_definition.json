@@ -1,0 +1,9 @@
+{
+  "assignment": "Source checkpoint scores with calibration thresholds by dominant GT class",
+  "scope": "Exploratory diagnosis, not a deployable routing policy; classes averaged only when present in the stratum GT",
+  "counts": {
+    "low": 526,
+    "middle": 977,
+    "high": 497
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pid": 2504961,
+  "argv": [
+    "experiments_segmentation/train_worker.py",
+    "2026"
+  ],
+  "at": 1794057367.1052358
+}

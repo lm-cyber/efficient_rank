@@ -1,0 +1,39 @@
+{
+  "task": "s123_b90_random_width",
+  "seed": 123,
+  "method": "random_width",
+  "budget": 0.9,
+  "steps": 1500,
+  "best_miou": 46.502486455148166,
+  "best_step": 1500,
+  "training_seconds": 461.0465764887631,
+  "cost": {
+    "params": 12088950,
+    "macs": 14288680960,
+    "flops": 28577361920,
+    "widths": [
+      48,
+      168,
+      416,
+      144,
+      1200,
+      1264,
+      800,
+      1944
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 24.185873515367508,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "at": 1794058783.4218614
+}

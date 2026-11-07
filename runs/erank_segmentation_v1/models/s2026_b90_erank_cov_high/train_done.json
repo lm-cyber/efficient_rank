@@ -1,0 +1,39 @@
+{
+  "task": "s2026_b90_erank_cov_high",
+  "seed": 2026,
+  "method": "erank_cov_high",
+  "budget": 0.9,
+  "steps": 1500,
+  "best_miou": 49.3033349731836,
+  "best_step": 1000,
+  "training_seconds": 462.470604872331,
+  "cost": {
+    "params": 11133622,
+    "macs": 14288680960,
+    "flops": 28577361920,
+    "widths": [
+      128,
+      200,
+      392,
+      392,
+      1008,
+      992,
+      1368,
+      672
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 24.185873515367508,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "at": 1794062530.5210888
+}

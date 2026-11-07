@@ -1,0 +1,28 @@
+{
+  "params": 13715798,
+  "macs": 15878062080,
+  "flops": 31756124160,
+  "widths": [
+    256,
+    256,
+    512,
+    512,
+    1280,
+    1280,
+    2048,
+    2048
+  ],
+  "coefficients": [
+    2244608,
+    2244608,
+    1085440,
+    1085440,
+    664576,
+    664576,
+    264448,
+    264448
+  ],
+  "fixed_macs": 10832838656,
+  "prunable_macs_pct": 31.7748060095757,
+  "operation_scope": "Conv/Linear and both attention matmuls"
+}

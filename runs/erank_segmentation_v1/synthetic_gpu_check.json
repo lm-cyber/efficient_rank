@@ -1,0 +1,9 @@
+{
+  "verification_only": true,
+  "training_results": false,
+  "batch": 8,
+  "warm_step_seconds": 0.09203927125781775,
+  "peak_gpu_gib": 6.541025161743164,
+  "finite_loss": true,
+  "at": 1794057112.6215582
+}

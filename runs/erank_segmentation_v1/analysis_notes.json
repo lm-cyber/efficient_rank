@@ -1,0 +1,14 @@
+{
+  "at": 1794058603.8110428,
+  "scope": "Reporting details fixed before opening official ADE validation; original protocol/config unchanged",
+  "primary_comparisons": "8: 2 MAC budgets x 2 rank definitions x low-vs-random or low-vs-uniform; paired fine-tune seeds",
+  "intervals": "Student t with df=2, familywise 95% Bonferroni over 8; zero sample SD does not establish a zero-width interval",
+  "hardware_quality_filter": "At least 99% mean source mIoU is descriptive, not a non-inferiority test",
+  "inference_checks": [
+    "verification.json",
+    "report_verification.json",
+    "inference_verification.json"
+  ],
+  "training_limit": "1500 updates x batch 8 / 17650 samples = 0.680 epochs; convergence is not assumed",
+  "reporting_changes": "Added recovery curves, confusion-count consistency, report arithmetic checks, and standalone startup guard; active training implementation unchanged"
+}

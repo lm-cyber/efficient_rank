@@ -1,0 +1,39 @@
+{
+  "task": "s123_b90_erank_cov_random",
+  "seed": 123,
+  "method": "erank_cov_random",
+  "budget": 0.9,
+  "steps": 1500,
+  "best_miou": 48.846217127585604,
+  "best_step": 1500,
+  "training_seconds": 461.2639845404774,
+  "cost": {
+    "params": 11133622,
+    "macs": 14288680960,
+    "flops": 28577361920,
+    "widths": [
+      128,
+      200,
+      416,
+      368,
+      1056,
+      944,
+      1376,
+      664
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 24.185873515367508,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "at": 1794060656.170975
+}

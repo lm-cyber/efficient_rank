@@ -1,0 +1,8 @@
+{
+  "at": 1794056454.5721574,
+  "scope": "Exploratory follow-up, before new scoring/validation/training",
+  "sha256": {
+    "protocol.md": "89e0b23a29a51a38f9c2fe91fda40641c49de793e5a584dd307c0732fcf27440",
+    "config.json": "566bfe27bfdaf3a03ae02283cf9cc3624237febbea9f8c437a68119a2170678d"
+  }
+}

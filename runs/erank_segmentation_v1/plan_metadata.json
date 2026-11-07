@@ -1,0 +1,7 @@
+{
+  "at": 1794057362.1947007,
+  "trainings": 63,
+  "steps": 94500,
+  "scope": "Architectures fixed from calibration before training and final evaluation",
+  "sha256": "46bacdbe31a12301249f28454b433f4bf52a16c754d31fb531f522379a7e287e"
+}

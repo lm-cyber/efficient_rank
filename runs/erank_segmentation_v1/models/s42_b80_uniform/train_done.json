@@ -1,0 +1,39 @@
+{
+  "task": "s42_b80_uniform",
+  "seed": 42,
+  "method": "uniform",
+  "budget": 0.8,
+  "steps": 1500,
+  "best_miou": 31.01691152125839,
+  "best_step": 1500,
+  "training_seconds": 455.0157000105828,
+  "cost": {
+    "params": 9780126,
+    "macs": 12701249536,
+    "flops": 25402499072,
+    "widths": [
+      96,
+      96,
+      184,
+      192,
+      472,
+      472,
+      760,
+      760
+    ],
+    "coefficients": [
+      2244608,
+      2244608,
+      1085440,
+      1085440,
+      664576,
+      664576,
+      264448,
+      264448
+    ],
+    "fixed_macs": 10832838656,
+    "prunable_macs_pct": 14.710449351492844,
+    "operation_scope": "Conv/Linear and both attention matmuls"
+  },
+  "at": 1794062992.4527488
+}

@@ -1,0 +1,7 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "gpu": "name, uuid, driver_version\nNVIDIA A100 80GB PCIe, GPU-46149a7e-281f-ff07-cde6-a78793e0f997, 580.119.02\n",
+  "at": 1794055083.4098895
+}

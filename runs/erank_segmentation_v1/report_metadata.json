@@ -1,0 +1,7 @@
+{
+  "at": 1794072822.2819207,
+  "models": 64,
+  "trainings": 63,
+  "normalization": "Within candidate/source ratio, same execution mode and batch; three fine-tune seeds share one source checkpoint",
+  "source_sha256": "f80a4cc75fc54627e1c218f86fd46bd8533b9a1bcdc56de5fea722c70114f9ab"
+}
