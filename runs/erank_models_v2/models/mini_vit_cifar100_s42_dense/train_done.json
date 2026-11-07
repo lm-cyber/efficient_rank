@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s42_dense",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "base",
+  "method": "dense",
+  "epochs": 150,
+  "budget": 1.0,
+  "train_seed": 42,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 691780,
+  "macs": 47490432,
+  "flops": 94980864,
+  "initial_val": {
+    "accuracy": 1.0,
+    "loss": 4.609137890625,
+    "n": 2500
+  },
+  "best_val_accuracy": 58.52,
+  "best_epoch": 108,
+  "training_seconds": 1273.5450413059443
+}

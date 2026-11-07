@@ -1,0 +1,4 @@
+{
+  "unix_time": 1793963275.0021684,
+  "note": "Frozen before first compressed-model training. Two preregistered ViT/CIFAR10 seed42 b75 main jobs execute early while other base models are still training."
+}

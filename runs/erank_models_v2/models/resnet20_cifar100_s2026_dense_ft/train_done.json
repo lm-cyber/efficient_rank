@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s2026_dense_ft",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "control",
+  "method": "dense_ft",
+  "epochs": 20,
+  "budget": 1.0,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ]
+  },
+  "params": 275572,
+  "macs": 40556800,
+  "flops": 81113600,
+  "initial_val": {
+    "accuracy": 66.56,
+    "loss": 1.3188228759765626,
+    "n": 2500
+  },
+  "best_val_accuracy": 66.56,
+  "best_epoch": 0,
+  "training_seconds": 98.03381905984133
+}

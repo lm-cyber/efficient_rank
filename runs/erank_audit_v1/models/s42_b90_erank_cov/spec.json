@@ -1,0 +1,26 @@
+{
+  "phase": "main",
+  "method": "erank_cov",
+  "model_seed": 42,
+  "budget": 0.9,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "epochs": 20,
+  "lr": 0.01,
+  "training_seed": 100042,
+  "params": 243152,
+  "macs": 36477568,
+  "flops": 72955136,
+  "widths": [
+    14,
+    15,
+    14,
+    24,
+    30,
+    31,
+    49,
+    63,
+    59
+  ]
+}

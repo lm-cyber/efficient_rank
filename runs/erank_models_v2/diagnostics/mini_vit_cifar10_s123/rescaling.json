@@ -1,0 +1,26 @@
+[
+  {
+    "layer": 0,
+    "original_sigma": 200.68656411052595,
+    "original_cov": 55.226472170062046,
+    "rescaled_sigma": 110.57642055611886,
+    "rescaled_cov": 26.361458656708578,
+    "max_abs_logit_difference": 2.1457672119140625e-06
+  },
+  {
+    "layer": 3,
+    "original_sigma": 261.96337064514967,
+    "original_cov": 115.1288755182423,
+    "rescaled_sigma": 144.08997348175842,
+    "rescaled_cov": 54.13817151758551,
+    "max_abs_logit_difference": 9.5367431640625e-07
+  },
+  {
+    "layer": 5,
+    "original_sigma": 219.0935190060644,
+    "original_cov": 40.68753504098063,
+    "rescaled_sigma": 132.03951376575935,
+    "rescaled_cov": 32.23506017022216,
+    "max_abs_logit_difference": 4.76837158203125e-07
+  }
+]

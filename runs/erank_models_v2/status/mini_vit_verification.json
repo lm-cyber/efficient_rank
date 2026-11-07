@@ -1,0 +1,13 @@
+{
+  "state": "training",
+  "task": "full_engine_mini_vit_True",
+  "epoch": 2,
+  "epochs": 2,
+  "train_loss": 1.931828298611111,
+  "val_accuracy": 40.64,
+  "val_loss": 1.6646967041015626,
+  "best_accuracy": 40.64,
+  "lr": 0.00025,
+  "seconds": 9.578809424303472,
+  "updated_at": 1793962564.5905101
+}

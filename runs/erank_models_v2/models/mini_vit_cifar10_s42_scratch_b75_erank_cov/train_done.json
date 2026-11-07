@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s42_scratch_b75_erank_cov",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "scratch",
+  "method": "erank_cov",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 30042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      121,
+      240,
+      288,
+      289,
+      298,
+      101
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 496419,
+  "macs": 35599296,
+  "flops": 71198592,
+  "initial_val": {
+    "accuracy": 12.92,
+    "loss": 2.2916986328125,
+    "n": 2500
+  },
+  "best_val_accuracy": 84.8,
+  "best_epoch": 111,
+  "training_seconds": 1049.9524609846994
+}

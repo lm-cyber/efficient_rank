@@ -1,0 +1,22 @@
+{
+  "phase": "base",
+  "method": "original",
+  "model_seed": 42,
+  "epochs": 150,
+  "lr": 0.1,
+  "training_seed": 42,
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "widths": [
+    16,
+    16,
+    16,
+    32,
+    32,
+    32,
+    64,
+    64,
+    64
+  ]
+}

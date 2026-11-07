@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s2026_iter_r2",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "iterative",
+  "method": "erank_ceil_r2",
+  "epochs": 20,
+  "budget": null,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      127,
+      180,
+      239,
+      212,
+      211,
+      139
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 452222,
+  "macs": 32785344,
+  "flops": 65570688,
+  "initial_val": {
+    "accuracy": 76.6,
+    "loss": 0.7562583251953126,
+    "n": 2500
+  },
+  "best_val_accuracy": 84.92,
+  "best_epoch": 17,
+  "training_seconds": 70.67804108839482
+}

@@ -1,0 +1,40 @@
+{
+  "before": {
+    "accuracy": 46.28,
+    "loss": 2.170977783203125,
+    "n": 2500
+  },
+  "after_bn": {
+    "accuracy": 49.32,
+    "loss": 1.940130810546875,
+    "n": 2500
+  },
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ],
+    "factors": {
+      "blocks.0.conv1": 6,
+      "blocks.2.conv2": 6,
+      "blocks.8.conv2": 25
+    }
+  },
+  "factor_ranks": {
+    "blocks.0.conv1": 6,
+    "blocks.2.conv2": 6,
+    "blocks.8.conv2": 25
+  },
+  "target_macs": 36501120.0,
+  "actual_macs": 36468992,
+  "budget_gap_fraction": 0.0007921729525011836
+}

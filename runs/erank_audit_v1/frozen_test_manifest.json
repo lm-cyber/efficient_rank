@@ -1,0 +1,2219 @@
+[
+  {
+    "task": "base_s123",
+    "spec": {
+      "phase": "base",
+      "method": "original",
+      "model_seed": 123,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.52,
+      "best_epoch": 137,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.96,
+        "loss": 3.245325439453125,
+        "n": 5000
+      },
+      "training_seconds": 323.08709912747145
+    }
+  },
+  {
+    "task": "base_s2026",
+    "spec": {
+      "phase": "base",
+      "method": "original",
+      "model_seed": 2026,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.84,
+      "best_epoch": 141,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.8,
+        "loss": 3.189945068359375,
+        "n": 5000
+      },
+      "training_seconds": 322.9603965058923
+    }
+  },
+  {
+    "task": "base_s42",
+    "spec": {
+      "phase": "base",
+      "method": "original",
+      "model_seed": 42,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.6,
+      "best_epoch": 143,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.98,
+        "loss": 3.9837096435546875,
+        "n": 5000
+      },
+      "training_seconds": 324.2658618139103
+    }
+  },
+  {
+    "task": "s123_b60_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 123,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 165196,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        9,
+        9,
+        16,
+        21,
+        21,
+        33,
+        42,
+        41
+      ],
+      "best_val_accuracy": 91.02,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 67.72,
+        "loss": 1.2794039978027343,
+        "n": 5000
+      },
+      "training_seconds": 47.85835017636418
+    }
+  },
+  {
+    "task": "s123_b60_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 123,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 166064,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        9,
+        9,
+        18,
+        20,
+        20,
+        37,
+        41,
+        40
+      ],
+      "best_val_accuracy": 91.0,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 69.08,
+        "loss": 1.211805438232422,
+        "n": 5000
+      },
+      "training_seconds": 47.80153721105307
+    }
+  },
+  {
+    "task": "s123_b60_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 1230600,
+      "sampling_attempts": 575,
+      "params": 163472,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        8,
+        8,
+        11,
+        24,
+        18,
+        19,
+        37,
+        42,
+        36
+      ],
+      "best_val_accuracy": 91.14,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 69.1,
+        "loss": 1.2098119262695313,
+        "n": 5000
+      },
+      "training_seconds": 47.246738848276436
+    }
+  },
+  {
+    "task": "s123_b60_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 1230601,
+      "sampling_attempts": 2,
+      "params": 164768,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        8,
+        10,
+        10,
+        17,
+        18,
+        21,
+        43,
+        37,
+        39
+      ],
+      "best_val_accuracy": 90.88,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 70.92,
+        "loss": 1.1393184631347657,
+        "n": 5000
+      },
+      "training_seconds": 48.26890163496137
+    }
+  },
+  {
+    "task": "s123_b60_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 123,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 159576,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        10,
+        9,
+        19,
+        19,
+        19,
+        39,
+        37,
+        37
+      ],
+      "best_val_accuracy": 91.38,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 70.32,
+        "loss": 1.1522207763671874,
+        "n": 5000
+      },
+      "training_seconds": 47.788255013525486
+    }
+  },
+  {
+    "task": "s123_b75_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 206338,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        11,
+        12,
+        21,
+        26,
+        26,
+        41,
+        53,
+        51
+      ],
+      "best_val_accuracy": 91.88,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 80.88,
+        "loss": 0.7096928771972656,
+        "n": 5000
+      },
+      "training_seconds": 49.053319218568504
+    }
+  },
+  {
+    "task": "s123_b75_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.84,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 79.28,
+        "loss": 0.7782900390625,
+        "n": 5000
+      },
+      "training_seconds": 47.068719391711056
+    }
+  },
+  {
+    "task": "s123_b75_erank_sigma_compensated",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_compensated",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": true,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.44,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 85.18,
+        "loss": 0.5357531433105469,
+        "n": 5000
+      },
+      "training_seconds": 47.125680511817336
+    }
+  },
+  {
+    "task": "s123_b75_erank_sigma_random_channels",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_random_channels",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "random",
+      "compensation": false,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.76,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 68.54,
+        "loss": 1.2142585205078125,
+        "n": 5000
+      },
+      "training_seconds": 47.9226284455508
+    }
+  },
+  {
+    "task": "s123_b75_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 1230750,
+      "sampling_attempts": 54,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        13,
+        14,
+        11,
+        23,
+        21,
+        22,
+        49,
+        46,
+        51
+      ],
+      "best_val_accuracy": 91.56,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 79.64,
+        "loss": 0.7671192810058594,
+        "n": 5000
+      },
+      "training_seconds": 48.55521740578115
+    }
+  },
+  {
+    "task": "s123_b75_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 1230751,
+      "sampling_attempts": 14,
+      "params": 200286,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        10,
+        13,
+        13,
+        23,
+        24,
+        25,
+        49,
+        45,
+        48
+      ],
+      "best_val_accuracy": 91.8,
+      "best_epoch": 19,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 79.04,
+        "loss": 0.7518093811035156,
+        "n": 5000
+      },
+      "training_seconds": 47.05075850058347
+    }
+  },
+  {
+    "task": "s123_b75_scratch_erank_sigma",
+    "spec": {
+      "phase": "scratch",
+      "method": "erank_sigma",
+      "model_seed": 123,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 30123,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 92.36,
+      "best_epoch": 145,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.98,
+        "loss": 3.138365380859375,
+        "n": 5000
+      },
+      "training_seconds": 348.9194700336084
+    }
+  },
+  {
+    "task": "s123_b75_scratch_uniform",
+    "spec": {
+      "phase": "scratch",
+      "method": "uniform",
+      "model_seed": 123,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 30123,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 91.74,
+      "best_epoch": 133,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 10.02,
+        "loss": 3.410575830078125,
+        "n": 5000
+      },
+      "training_seconds": 344.27611151803285
+    }
+  },
+  {
+    "task": "s123_b75_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 123,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 91.8,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 79.66,
+        "loss": 0.75798017578125,
+        "n": 5000
+      },
+      "training_seconds": 46.771942808292806
+    }
+  },
+  {
+    "task": "s123_b90_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 123,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 248344,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        13,
+        14,
+        14,
+        24,
+        31,
+        32,
+        49,
+        64,
+        62
+      ],
+      "best_val_accuracy": 92.46,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 86.6,
+        "loss": 0.4851108184814453,
+        "n": 5000
+      },
+      "training_seconds": 46.954220418818295
+    }
+  },
+  {
+    "task": "s123_b90_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 123,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 245754,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        28,
+        29,
+        30,
+        57,
+        59,
+        59
+      ],
+      "best_val_accuracy": 92.62,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.92,
+        "loss": 0.4375667694091797,
+        "n": 5000
+      },
+      "training_seconds": 48.19915637001395
+    }
+  },
+  {
+    "task": "s123_b90_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 1230900,
+      "sampling_attempts": 31,
+      "params": 243162,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        13,
+        14,
+        15,
+        30,
+        30,
+        29,
+        61,
+        56,
+        56
+      ],
+      "best_val_accuracy": 92.44,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 88.28,
+        "loss": 0.4032278778076172,
+        "n": 5000
+      },
+      "training_seconds": 46.99112379271537
+    }
+  },
+  {
+    "task": "s123_b90_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 123,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 1230901,
+      "sampling_attempts": 141,
+      "params": 244026,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        11,
+        15,
+        15,
+        30,
+        30,
+        31,
+        57,
+        59,
+        56
+      ],
+      "best_val_accuracy": 92.4,
+      "best_epoch": 19,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 88.32,
+        "loss": 0.41668323669433593,
+        "n": 5000
+      },
+      "training_seconds": 47.372736622579396
+    }
+  },
+  {
+    "task": "s123_b90_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 123,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 246188,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        29,
+        29,
+        29,
+        59,
+        59,
+        58
+      ],
+      "best_val_accuracy": 92.44,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.8,
+        "loss": 0.4331489501953125,
+        "n": 5000
+      },
+      "training_seconds": 49.496614994481206
+    }
+  },
+  {
+    "task": "s123_dense_ft",
+    "spec": {
+      "phase": "dense_control",
+      "method": "original_ft",
+      "model_seed": 123,
+      "budget": 1.0,
+      "repeat": null,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.52,
+      "best_epoch": 0,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 92.52,
+        "loss": 0.2836046142578125,
+        "n": 5000
+      },
+      "training_seconds": 43.27254210971296
+    }
+  },
+  {
+    "task": "s2026_b60_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 2026,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 165196,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        8,
+        10,
+        9,
+        16,
+        21,
+        21,
+        33,
+        42,
+        41
+      ],
+      "best_val_accuracy": 90.92,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 68.66,
+        "loss": 1.2406542602539063,
+        "n": 5000
+      },
+      "training_seconds": 46.66686489339918
+    }
+  },
+  {
+    "task": "s2026_b60_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 2026,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 161738,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        10,
+        9,
+        18,
+        20,
+        20,
+        37,
+        39,
+        38
+      ],
+      "best_val_accuracy": 91.0,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 70.82,
+        "loss": 1.1227570068359376,
+        "n": 5000
+      },
+      "training_seconds": 47.79697938915342
+    }
+  },
+  {
+    "task": "s2026_b60_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 20260600,
+      "sampling_attempts": 185,
+      "params": 162602,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        11,
+        10,
+        16,
+        15,
+        21,
+        41,
+        39,
+        38
+      ],
+      "best_val_accuracy": 90.8,
+      "best_epoch": 19,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 68.48,
+        "loss": 1.214494580078125,
+        "n": 5000
+      },
+      "training_seconds": 47.41459752060473
+    }
+  },
+  {
+    "task": "s2026_b60_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 20260601,
+      "sampling_attempts": 15,
+      "params": 160874,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        9,
+        7,
+        16,
+        27,
+        20,
+        37,
+        41,
+        33
+      ],
+      "best_val_accuracy": 91.24,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 65.92,
+        "loss": 1.3216699462890624,
+        "n": 5000
+      },
+      "training_seconds": 47.40873287059367
+    }
+  },
+  {
+    "task": "s2026_b60_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 2026,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 159576,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        10,
+        9,
+        19,
+        19,
+        19,
+        39,
+        37,
+        37
+      ],
+      "best_val_accuracy": 91.06,
+      "best_epoch": 19,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 71.16,
+        "loss": 1.0881073608398437,
+        "n": 5000
+      },
+      "training_seconds": 47.91234946530312
+    }
+  },
+  {
+    "task": "s2026_b75_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 207204,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        10,
+        12,
+        11,
+        21,
+        27,
+        27,
+        41,
+        53,
+        51
+      ],
+      "best_val_accuracy": 91.98,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 81.56,
+        "loss": 0.7027882873535156,
+        "n": 5000
+      },
+      "training_seconds": 47.2576175481081
+    }
+  },
+  {
+    "task": "s2026_b75_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 202880,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        12,
+        12,
+        23,
+        25,
+        25,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.88,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 82.32,
+        "loss": 0.6674183532714844,
+        "n": 5000
+      },
+      "training_seconds": 47.56033068150282
+    }
+  },
+  {
+    "task": "s2026_b75_erank_sigma_compensated",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_compensated",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": true,
+      "repeat": null,
+      "params": 202880,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        12,
+        12,
+        23,
+        25,
+        25,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.78,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 85.62,
+        "loss": 0.523857699584961,
+        "n": 5000
+      },
+      "training_seconds": 47.49191181641072
+    }
+  },
+  {
+    "task": "s2026_b75_erank_sigma_random_channels",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_random_channels",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "random",
+      "compensation": false,
+      "repeat": null,
+      "params": 202880,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        12,
+        12,
+        23,
+        25,
+        25,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.5,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 74.08,
+        "loss": 0.9243609130859375,
+        "n": 5000
+      },
+      "training_seconds": 48.33374344930053
+    }
+  },
+  {
+    "task": "s2026_b75_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 20260750,
+      "sampling_attempts": 134,
+      "params": 203312,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        15,
+        13,
+        10,
+        22,
+        20,
+        23,
+        51,
+        52,
+        45
+      ],
+      "best_val_accuracy": 91.9,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 82.28,
+        "loss": 0.6481164245605469,
+        "n": 5000
+      },
+      "training_seconds": 47.54767680633813
+    }
+  },
+  {
+    "task": "s2026_b75_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 20260751,
+      "sampling_attempts": 156,
+      "params": 201584,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        11,
+        13,
+        28,
+        23,
+        24,
+        43,
+        50,
+        48
+      ],
+      "best_val_accuracy": 91.74,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 82.08,
+        "loss": 0.6638403503417969,
+        "n": 5000
+      },
+      "training_seconds": 46.46171172056347
+    }
+  },
+  {
+    "task": "s2026_b75_scratch_erank_sigma",
+    "spec": {
+      "phase": "scratch",
+      "method": "erank_sigma",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 32026,
+      "params": 202880,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        12,
+        12,
+        23,
+        25,
+        25,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.94,
+      "best_epoch": 141,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.68,
+        "loss": 5.805043603515625,
+        "n": 5000
+      },
+      "training_seconds": 354.09413000382483
+    }
+  },
+  {
+    "task": "s2026_b75_scratch_uniform",
+    "spec": {
+      "phase": "scratch",
+      "method": "uniform",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 32026,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 91.42,
+      "best_epoch": 141,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 6.54,
+        "loss": 3.84540107421875,
+        "n": 5000
+      },
+      "training_seconds": 341.6629936909303
+    }
+  },
+  {
+    "task": "s2026_b75_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 2026,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 91.88,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 82.32,
+        "loss": 0.6531685302734375,
+        "n": 5000
+      },
+      "training_seconds": 45.9168554013595
+    }
+  },
+  {
+    "task": "s2026_b90_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 2026,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 246614,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        12,
+        15,
+        14,
+        24,
+        32,
+        32,
+        49,
+        63,
+        61
+      ],
+      "best_val_accuracy": 92.28,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.68,
+        "loss": 0.4308604919433594,
+        "n": 5000
+      },
+      "training_seconds": 46.380384124815464
+    }
+  },
+  {
+    "task": "s2026_b90_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 2026,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 245754,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        28,
+        29,
+        30,
+        57,
+        59,
+        59
+      ],
+      "best_val_accuracy": 92.66,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 88.84,
+        "loss": 0.3855304656982422,
+        "n": 5000
+      },
+      "training_seconds": 48.36323681846261
+    }
+  },
+  {
+    "task": "s2026_b90_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 20260900,
+      "sampling_attempts": 123,
+      "params": 245322,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        16,
+        13,
+        29,
+        28,
+        28,
+        59,
+        58,
+        59
+      ],
+      "best_val_accuracy": 92.34,
+      "best_epoch": 14,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 88.48,
+        "loss": 0.39060529174804687,
+        "n": 5000
+      },
+      "training_seconds": 46.923411971889436
+    }
+  },
+  {
+    "task": "s2026_b90_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 2026,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 20260901,
+      "sampling_attempts": 47,
+      "params": 246186,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        13,
+        14,
+        16,
+        27,
+        28,
+        29,
+        59,
+        60,
+        58
+      ],
+      "best_val_accuracy": 92.54,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 88.8,
+        "loss": 0.40126168823242186,
+        "n": 5000
+      },
+      "training_seconds": 47.299513664096594
+    }
+  },
+  {
+    "task": "s2026_b90_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 2026,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 246188,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        29,
+        29,
+        29,
+        59,
+        59,
+        58
+      ],
+      "best_val_accuracy": 92.6,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 89.06,
+        "loss": 0.38981493530273437,
+        "n": 5000
+      },
+      "training_seconds": 47.87524570990354
+    }
+  },
+  {
+    "task": "s2026_dense_ft",
+    "spec": {
+      "phase": "dense_control",
+      "method": "original_ft",
+      "model_seed": 2026,
+      "budget": 1.0,
+      "repeat": null,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.84,
+      "best_epoch": 0,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 92.84,
+        "loss": 0.26853206939697266,
+        "n": 5000
+      },
+      "training_seconds": 43.21024682279676
+    }
+  },
+  {
+    "task": "s42_b60_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 42,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 162600,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        10,
+        9,
+        16,
+        20,
+        21,
+        33,
+        42,
+        39
+      ],
+      "best_val_accuracy": 91.16,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 63.16,
+        "loss": 1.4532507446289062,
+        "n": 5000
+      },
+      "training_seconds": 48.043032734654844
+    }
+  },
+  {
+    "task": "s42_b60_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 42,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 163468,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        9,
+        10,
+        9,
+        18,
+        19,
+        20,
+        37,
+        40,
+        39
+      ],
+      "best_val_accuracy": 91.26,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 62.26,
+        "loss": 1.4901255981445312,
+        "n": 5000
+      },
+      "training_seconds": 49.18192188255489
+    }
+  },
+  {
+    "task": "s42_b60_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 420600,
+      "sampling_attempts": 66,
+      "params": 162172,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        10,
+        8,
+        19,
+        21,
+        18,
+        39,
+        39,
+        37
+      ],
+      "best_val_accuracy": 91.22,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 63.9,
+        "loss": 1.4076655639648437,
+        "n": 5000
+      },
+      "training_seconds": 48.07115807849914
+    }
+  },
+  {
+    "task": "s42_b60_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 420601,
+      "sampling_attempts": 452,
+      "params": 160876,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        7,
+        10,
+        22,
+        20,
+        20,
+        37,
+        35,
+        40
+      ],
+      "best_val_accuracy": 90.72,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 62.26,
+        "loss": 1.4884857421875,
+        "n": 5000
+      },
+      "training_seconds": 47.78111737314612
+    }
+  },
+  {
+    "task": "s42_b60_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 42,
+      "budget": 0.6,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 159576,
+      "macs": 24312448,
+      "flops": 48624896,
+      "widths": [
+        10,
+        10,
+        9,
+        19,
+        19,
+        19,
+        39,
+        37,
+        37
+      ],
+      "best_val_accuracy": 90.86,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 61.84,
+        "loss": 1.5142614624023438,
+        "n": 5000
+      },
+      "training_seconds": 48.06420163810253
+    }
+  },
+  {
+    "task": "s42_b75_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 203742,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        11,
+        12,
+        12,
+        21,
+        25,
+        26,
+        41,
+        52,
+        50
+      ],
+      "best_val_accuracy": 91.76,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 78.12,
+        "loss": 0.8046077209472656,
+        "n": 5000
+      },
+      "training_seconds": 48.56165862083435
+    }
+  },
+  {
+    "task": "s42_b75_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.52,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 79.26,
+        "loss": 0.7681506286621094,
+        "n": 5000
+      },
+      "training_seconds": 47.36412528343499
+    }
+  },
+  {
+    "task": "s42_b75_erank_sigma_compensated",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_compensated",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": true,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.46,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 84.58,
+        "loss": 0.5425254089355469,
+        "n": 5000
+      },
+      "training_seconds": 46.969071879051626
+    }
+  },
+  {
+    "task": "s42_b75_erank_sigma_random_channels",
+    "spec": {
+      "phase": "ablation",
+      "method": "erank_sigma_random_channels",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "random",
+      "compensation": false,
+      "repeat": null,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.14,
+      "best_epoch": 19,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 67.52,
+        "loss": 1.2006123107910156,
+        "n": 5000
+      },
+      "training_seconds": 46.963065860792994
+    }
+  },
+  {
+    "task": "s42_b75_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 420750,
+      "sampling_attempts": 362,
+      "params": 201150,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        16,
+        10,
+        10,
+        21,
+        21,
+        29,
+        49,
+        50,
+        44
+      ],
+      "best_val_accuracy": 91.86,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 76.0,
+        "loss": 0.8757359680175781,
+        "n": 5000
+      },
+      "training_seconds": 47.676824333146214
+    }
+  },
+  {
+    "task": "s42_b75_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 420751,
+      "sampling_attempts": 120,
+      "params": 201150,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        13,
+        12,
+        23,
+        21,
+        25,
+        49,
+        47,
+        48
+      ],
+      "best_val_accuracy": 91.78,
+      "best_epoch": 16,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 78.26,
+        "loss": 0.8133383178710938,
+        "n": 5000
+      },
+      "training_seconds": 46.86748838797212
+    }
+  },
+  {
+    "task": "s42_b75_scratch_erank_sigma",
+    "spec": {
+      "phase": "scratch",
+      "method": "erank_sigma",
+      "model_seed": 42,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 30042,
+      "params": 202014,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        23,
+        24,
+        24,
+        45,
+        49,
+        49
+      ],
+      "best_val_accuracy": 91.84,
+      "best_epoch": 150,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 10.0,
+        "loss": 4.39385712890625,
+        "n": 5000
+      },
+      "training_seconds": 355.4981620069593
+    }
+  },
+  {
+    "task": "s42_b75_scratch_uniform",
+    "spec": {
+      "phase": "scratch",
+      "method": "uniform",
+      "model_seed": 42,
+      "budget": 0.75,
+      "repeat": null,
+      "initialization_seed": 30042,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 92.16,
+      "best_epoch": 140,
+      "epochs": 150,
+      "initial_val": {
+        "accuracy": 9.98,
+        "loss": 5.157204418945312,
+        "n": 5000
+      },
+      "training_seconds": 352.3044665614143
+    }
+  },
+  {
+    "task": "s42_b75_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 42,
+      "budget": 0.75,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 200718,
+      "macs": 30395008,
+      "flops": 60790016,
+      "widths": [
+        12,
+        12,
+        12,
+        24,
+        24,
+        24,
+        47,
+        48,
+        47
+      ],
+      "best_val_accuracy": 91.78,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 78.88,
+        "loss": 0.7842277038574219,
+        "n": 5000
+      },
+      "training_seconds": 46.754558195360005
+    }
+  },
+  {
+    "task": "s42_b90_erank_cov",
+    "spec": {
+      "phase": "main",
+      "method": "erank_cov",
+      "model_seed": 42,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 243152,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        15,
+        14,
+        24,
+        30,
+        31,
+        49,
+        63,
+        59
+      ],
+      "best_val_accuracy": 92.04,
+      "best_epoch": 20,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 86.82,
+        "loss": 0.4643681671142578,
+        "n": 5000
+      },
+      "training_seconds": 47.75290279928595
+    }
+  },
+  {
+    "task": "s42_b90_erank_sigma",
+    "spec": {
+      "phase": "main",
+      "method": "erank_sigma",
+      "model_seed": 42,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 245754,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        28,
+        29,
+        30,
+        57,
+        59,
+        59
+      ],
+      "best_val_accuracy": 92.5,
+      "best_epoch": 17,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.66,
+        "loss": 0.4127423767089844,
+        "n": 5000
+      },
+      "training_seconds": 47.333023195154965
+    }
+  },
+  {
+    "task": "s42_b90_random_0",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 0,
+      "random_seed": 420900,
+      "sampling_attempts": 14,
+      "params": 245754,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        15,
+        15,
+        12,
+        28,
+        30,
+        29,
+        57,
+        60,
+        58
+      ],
+      "best_val_accuracy": 92.44,
+      "best_epoch": 18,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 86.98,
+        "loss": 0.4520165924072266,
+        "n": 5000
+      },
+      "training_seconds": 47.7766798119992
+    }
+  },
+  {
+    "task": "s42_b90_random_1",
+    "spec": {
+      "phase": "main",
+      "method": "random",
+      "model_seed": 42,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": 1,
+      "random_seed": 420901,
+      "sampling_attempts": 13,
+      "params": 243594,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        13,
+        15,
+        14,
+        31,
+        30,
+        28,
+        59,
+        56,
+        58
+      ],
+      "best_val_accuracy": 92.04,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.1,
+        "loss": 0.47294831237792967,
+        "n": 5000
+      },
+      "training_seconds": 47.88395685330033
+    }
+  },
+  {
+    "task": "s42_b90_uniform",
+    "spec": {
+      "phase": "main",
+      "method": "uniform",
+      "model_seed": 42,
+      "budget": 0.9,
+      "selection": "qr",
+      "compensation": false,
+      "repeat": null,
+      "params": 246188,
+      "macs": 36477568,
+      "flops": 72955136,
+      "widths": [
+        14,
+        14,
+        14,
+        29,
+        29,
+        29,
+        59,
+        59,
+        58
+      ],
+      "best_val_accuracy": 92.08,
+      "best_epoch": 15,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 87.96,
+        "loss": 0.41908886108398435,
+        "n": 5000
+      },
+      "training_seconds": 48.451725697144866
+    }
+  },
+  {
+    "task": "s42_dense_ft",
+    "spec": {
+      "phase": "dense_control",
+      "method": "original_ft",
+      "model_seed": 42,
+      "budget": 1.0,
+      "repeat": null,
+      "params": 269722,
+      "macs": 40551040,
+      "flops": 81102080,
+      "widths": [
+        16,
+        16,
+        16,
+        32,
+        32,
+        32,
+        64,
+        64,
+        64
+      ],
+      "best_val_accuracy": 92.6,
+      "best_epoch": 0,
+      "epochs": 20,
+      "initial_val": {
+        "accuracy": 92.6,
+        "loss": 0.27884788513183595,
+        "n": 5000
+      },
+      "training_seconds": 44.09862559475005
+    }
+  }
+]

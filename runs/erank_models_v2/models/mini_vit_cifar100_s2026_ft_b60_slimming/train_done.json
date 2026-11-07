@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s2026_ft_b60_slimming",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "slimming",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      162,
+      105,
+      54,
+      61,
+      120,
+      256
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 393402,
+  "macs": 28493184,
+  "flops": 56986368,
+  "initial_val": {
+    "accuracy": 37.28,
+    "loss": 2.65305537109375,
+    "n": 2500
+  },
+  "best_val_accuracy": 58.2,
+  "best_epoch": 15,
+  "training_seconds": 66.12379578780383
+}

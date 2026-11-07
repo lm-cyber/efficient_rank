@@ -1,0 +1,32 @@
+{
+  "phase": "ablation",
+  "method": "erank_sigma_compensated",
+  "model_seed": 42,
+  "budget": 0.75,
+  "selection": "qr",
+  "compensation": true,
+  "repeat": null,
+  "params": 202014,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    12,
+    12,
+    12,
+    23,
+    24,
+    24,
+    45,
+    49,
+    49
+  ],
+  "best_val_accuracy": 91.46,
+  "best_epoch": 15,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 84.58,
+    "loss": 0.5425254089355469,
+    "n": 5000
+  },
+  "training_seconds": 46.969071879051626
+}

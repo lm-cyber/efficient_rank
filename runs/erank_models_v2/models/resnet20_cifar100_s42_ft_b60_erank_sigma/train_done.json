@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s42_ft_b60_erank_sigma",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "erank_sigma",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      9,
+      9,
+      10,
+      18,
+      20,
+      20,
+      37,
+      39,
+      38
+    ]
+  },
+  "params": 167588,
+  "macs": 24318208,
+  "flops": 48636416,
+  "initial_val": {
+    "accuracy": 15.12,
+    "loss": 4.256395654296875,
+    "n": 2500
+  },
+  "best_val_accuracy": 61.88,
+  "best_epoch": 17,
+  "training_seconds": 112.92583324946463
+}

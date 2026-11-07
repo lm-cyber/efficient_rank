@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s42_ft_b90_erank_sigma",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "erank_sigma",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      227,
+      293,
+      311,
+      344,
+      377,
+      365
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 617089,
+  "macs": 42734976,
+  "flops": 85469952,
+  "initial_val": {
+    "accuracy": 52.16,
+    "loss": 2.006824951171875,
+    "n": 2500
+  },
+  "best_val_accuracy": 58.32,
+  "best_epoch": 8,
+  "training_seconds": 155.40811395924538
+}

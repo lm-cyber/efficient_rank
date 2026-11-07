@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "entropy rank zero/one/full cases",
+    "resnet20 actual module MAC count agrees with formula",
+    "resnet20 per-example Taylor invariant to scoring batch size",
+    "resnet20 sparse=False: optimizer, finite loss, checkpoint exact roundtrip",
+    "resnet20 sparse=True: optimizer, finite loss, checkpoint exact roundtrip",
+    "mini_vit actual module MAC count agrees with formula",
+    "mini_vit per-example Taylor invariant to scoring batch size",
+    "mini_vit sparse=False: optimizer, finite loss, checkpoint exact roundtrip",
+    "mini_vit sparse=True: optimizer, finite loss, checkpoint exact roundtrip",
+    "verification never loads the test set"
+  ]
+}

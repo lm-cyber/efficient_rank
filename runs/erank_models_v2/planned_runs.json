@@ -1,0 +1,5042 @@
+[
+  {
+    "task": "resnet20_cifar10_s42_dense",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s42_sparse",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s42_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s42_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s42_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s42_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s42_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s123_dense",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s123_sparse",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s123_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s123_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s123_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s123_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s123_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s2026_dense",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s2026_sparse",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar10_s2026_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar10_s2026_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar10_s2026_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s2026_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar10_s2026_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s42_dense",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s42_sparse",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s42_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s42_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s42_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s42_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s42_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s123_dense",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s123_sparse",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s123_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s123_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s123_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s123_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s123_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s2026_dense",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s2026_sparse",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b90_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b75_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_random_width",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_hrank",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_slimming",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ft_b60_svd",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "resnet20_cifar100_s2026_dense_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "resnet20_cifar100_s2026_sparse_uniform_ft",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_scratch_b75_uniform_qr",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_scratch_b75_erank_sigma",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_scratch_b75_erank_cov",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ablation_b75_erank_l1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_ablation_b75_erank_taylor",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "resnet20_cifar100_s2026_iter_r1",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s2026_iter_r2",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "resnet20_cifar100_s2026_iter_r3",
+    "family": "resnet20",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s42_dense",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s42_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s42_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s42_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s42_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s42_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s42_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_dense",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s123_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s123_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s123_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s123_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s123_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s123_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_dense",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar10_s2026_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar10",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_dense",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s42_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s42_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s42_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s42_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s42_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s42_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 42,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_dense",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s123_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s123_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s123_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s123_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s123_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s123_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 123,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_dense",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "base",
+    "method": "dense",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_sparse",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "sparse_base",
+    "method": "sparse",
+    "epochs": 150,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b90_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.9
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b75_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "uniform_qr",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_sigma",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "erank_cov",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_random_width",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "random_width",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "l1",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "taylor",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_hrank",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "hrank",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_slimming",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "slimming",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ft_b60_svd",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "main",
+    "method": "svd",
+    "epochs": 20,
+    "budget": 0.6
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_dense_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "dense_ft",
+    "epochs": 20,
+    "budget": 1.0
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_sparse_uniform_ft",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "control",
+    "method": "sparse_uniform_ft",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_scratch_b75_uniform_qr",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "uniform_qr",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_scratch_b75_erank_sigma",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_scratch_b75_erank_cov",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "scratch",
+    "method": "erank_cov",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ablation_b75_erank_l1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_l1",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_ablation_b75_erank_taylor",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "selection_ablation",
+    "method": "erank_taylor",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_iter_r1",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r1",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_iter_r2",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r2",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_iter_r3",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "iterative",
+    "method": "erank_ceil_r3",
+    "epochs": 20,
+    "budget": null
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_depth4_dim96",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "depth4_dim96",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_depth8_dim64",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "depth8_dim64",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_ft_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_ft",
+    "method": "attention_only",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_scratch_attention_only",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "attention_only",
+    "epochs": 150,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_ft_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_ft",
+    "method": "joint_heads_mlp",
+    "epochs": 20,
+    "budget": 0.75
+  },
+  {
+    "task": "mini_vit_cifar100_s2026_architecture_scratch_joint_heads_mlp",
+    "family": "mini_vit",
+    "dataset": "cifar100",
+    "model_seed": 2026,
+    "phase": "architecture_scratch",
+    "method": "joint_heads_mlp",
+    "epochs": 150,
+    "budget": 0.75
+  }
+]

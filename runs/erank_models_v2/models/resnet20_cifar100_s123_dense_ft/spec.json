@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar100_s123_dense_ft",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "control",
+  "method": "dense_ft",
+  "epochs": 20,
+  "budget": 1.0,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ]
+  },
+  "params": 275572,
+  "macs": 40556800,
+  "flops": 81113600,
+  "source_snapshot": "source_processes/2358586",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

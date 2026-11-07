@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s2026_dense",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "base",
+  "method": "dense",
+  "epochs": 150,
+  "budget": 1.0,
+  "train_seed": 2026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 683050,
+  "macs": 47481792,
+  "flops": 94963584,
+  "initial_val": {
+    "accuracy": 11.72,
+    "loss": 2.298273193359375,
+    "n": 2500
+  },
+  "best_val_accuracy": 85.48,
+  "best_epoch": 137,
+  "training_seconds": 1254.8027191013098
+}

@@ -1,0 +1,7 @@
+phase,method,budget,test_mean,test_std,n
+ablation,erank_sigma_compensated,0.75,90.96666666666665,0.09609023536932161,3
+ablation,erank_sigma_random_channels,0.75,91.01666666666667,0.14502873278537667,3
+base,original,1.0,91.83,0.20999999999999908,3
+dense_control,original_ft,1.0,91.83,0.20999999999999908,3
+scratch,erank_sigma,0.75,91.17,0.22271057451319867,3
+scratch,uniform,0.75,91.06,0.3251153641401782,3

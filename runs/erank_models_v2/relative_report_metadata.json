@@ -1,0 +1,19 @@
+{
+  "rendered_at": 1794053787.8079283,
+  "comparisons": 168,
+  "paired_rows": 504,
+  "comparison_status": "Post-hoc descriptive comparisons requested after test; no new significance claims",
+  "aggregation": "Ratios within matched model seed, then mean and sample SD",
+  "speed_definition": "100 * (reference_latency / candidate_latency - 1)",
+  "quality_definition": "100 * candidate_accuracy / reference_accuracy",
+  "unchanged_raw_sha256": {
+    "results.csv": "0d5d099464a8dcdd25ec366e9f7255511196722f9c693fb2f7afdc545567857d",
+    "main_summary.csv": "1da6f04278d394c94f473f99aacb2e35aa8b39836fb5c4ef5b687a35f9fc5584",
+    "primary_comparisons.csv": "f132ccf18a29ef838c6ad09297bcd9bf7b02403715594ab04ac526c515e7e72e",
+    "rank_dynamics.csv": "edc0ba36b28fe02606967634f9337e7881273cace2a39f47329e0af84b6690ac",
+    "additional_summary.csv": "93b96011e78b6d7c2f06bf2fc74c6a0365878309eda7d30f3c3c86309de10de3",
+    "latency_rounds.csv": "bc436302c99344b4023a7cda43c8bd02dbe96357821db958021a958b2e78751e",
+    "vit_architecture_summary.csv": "a4c41f5fadf856f33a9ee0f526e0da8415a0df69b335d8b9a69782e45af55093"
+  },
+  "renderer_sha256": "3171463d13a6c641177009fe583cac37eaa777a94662e287171c577098415641"
+}

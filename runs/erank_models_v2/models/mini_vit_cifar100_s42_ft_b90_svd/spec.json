@@ -1,0 +1,50 @@
+{
+  "task": "mini_vit_cifar100_s42_ft_b90_svd",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "svd",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.0.mlp.fc1": 13,
+      "blocks.1.attn.qkv": 42,
+      "blocks.1.mlp.fc1": 10
+    }
+  },
+  "params": 617572,
+  "macs": 42741120,
+  "flops": 85482240,
+  "source_snapshot": "source_processes/2360925",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.0001
+}

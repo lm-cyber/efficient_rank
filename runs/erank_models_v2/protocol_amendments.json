@@ -1,0 +1,11 @@
+[
+  {
+    "at": 1793964657.8784351,
+    "field": "score_images",
+    "before": 512,
+    "after": 1024,
+    "reason": "Use identical calibration images for ERank, Taylor and HRank; remove a sample-size confound before any Taylor/HRank training or test evaluation",
+    "unaffected": "base/sparse training, rank dynamics, ERank profiles, the two early Uniform/ERank jobs, all epoch and budget counts",
+    "cache_policy": "Archive preliminary 512-image channel scores and recompute primary scores on 1024 images"
+  }
+]

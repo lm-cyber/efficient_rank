@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s42_scratch_b75_uniform_qr",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "scratch",
+  "method": "uniform_qr",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 30042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      223,
+      223,
+      223,
+      223,
+      223,
+      222
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 505149,
+  "macs": 35607936,
+  "flops": 71215872,
+  "initial_val": {
+    "accuracy": 1.4,
+    "loss": 4.61998388671875,
+    "n": 2500
+  },
+  "best_val_accuracy": 60.04,
+  "best_epoch": 120,
+  "training_seconds": 1073.9969769865274
+}

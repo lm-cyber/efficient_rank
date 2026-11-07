@@ -1,0 +1,45 @@
+{
+  "task": "mini_vit_cifar100_s42_ft_b75_taylor",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "taylor",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      223,
+      223,
+      223,
+      223,
+      223,
+      222
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 505149,
+  "macs": 35607936,
+  "flops": 71215872,
+  "source_snapshot": "source_processes/2360925",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.0001
+}

@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s123_sparse_uniform_ft",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "control",
+  "method": "sparse_uniform_ft",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      223,
+      223,
+      223,
+      223,
+      223,
+      222
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 505149,
+  "macs": 35607936,
+  "flops": 71215872,
+  "initial_val": {
+    "accuracy": 53.64,
+    "loss": 1.9166912109375,
+    "n": 2500
+  },
+  "best_val_accuracy": 59.24,
+  "best_epoch": 18,
+  "training_seconds": 143.54480287525803
+}

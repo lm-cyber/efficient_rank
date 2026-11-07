@@ -1,0 +1,28 @@
+{
+  "passed": [
+    {
+      "family": "resnet20",
+      "sparse": false,
+      "max_state_difference": 0.0,
+      "graph_train_step_ms_batch256": 33.61865757033229
+    },
+    {
+      "family": "resnet20",
+      "sparse": true,
+      "max_state_difference": 0.0,
+      "graph_train_step_ms_batch256": 34.23603530973196
+    },
+    {
+      "family": "mini_vit",
+      "sparse": false,
+      "max_state_difference": 0.0,
+      "graph_train_step_ms_batch256": 52.5718335993588
+    },
+    {
+      "family": "mini_vit",
+      "sparse": true,
+      "max_state_difference": 0.0,
+      "graph_train_step_ms_batch256": 55.90405631810427
+    }
+  ]
+}

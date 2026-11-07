@@ -1,0 +1,32 @@
+{
+  "task": "resnet20_cifar10_s123_sparse",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "sparse_base",
+  "method": "sparse",
+  "epochs": 150,
+  "budget": 1.0,
+  "train_seed": 123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ]
+  },
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "ft": false,
+  "sparse": true,
+  "lr": 0.1
+}

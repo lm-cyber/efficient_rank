@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3",
+  "torch": "2.5.1+cu121",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "pandas": "3.0.3",
+  "matplotlib": "3.11.0",
+  "cuda": "12.1",
+  "cudnn": 90100,
+  "gpu": "name, uuid, driver_version\nNVIDIA A100 80GB PCIe, GPU-46149a7e-281f-ff07-cde6-a78793e0f997, 580.119.02\n",
+  "captured_at": 1793962218.403782
+}

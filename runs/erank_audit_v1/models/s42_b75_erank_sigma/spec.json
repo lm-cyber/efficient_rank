@@ -1,0 +1,26 @@
+{
+  "phase": "main",
+  "method": "erank_sigma",
+  "model_seed": 42,
+  "budget": 0.75,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "epochs": 20,
+  "lr": 0.01,
+  "training_seed": 100042,
+  "params": 202014,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    12,
+    12,
+    12,
+    23,
+    24,
+    24,
+    45,
+    49,
+    49
+  ]
+}

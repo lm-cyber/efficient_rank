@@ -1,0 +1,31 @@
+{
+  "pid": 2374357,
+  "argv": [
+    "/home/nasibullin.alan/itmo/experiments_v2/finalize.py"
+  ],
+  "created_at": 1793996834.6304343,
+  "sha256": {
+    "config.json": "2f57f9ebe7d66ee23f99b9982e44ef9f113ed565747c4b5f78e908408d32fda3",
+    "data.py": "03ea02fa2f0caf6dd654fdff9b5a41eff76f38f9f323031d906a0826d551a84b",
+    "models.py": "26b9eb517e0b9d401152fe8f3902b23b6b81c5c8a4e5297ef08117aec5e139df",
+    "engine.py": "8ca51e688a5cc5cafe36614be2553002d659cd6c65ab39156cae6821179ba4e5",
+    "measures.py": "13049ac8b0a2615d0097a5a36e4d66f5b2090012d3c35a9ca3a7eb1f6953f96f",
+    "manifest.py": "e4af8d900d13d3496acaf72ca7baf7c077a716bb13463697fad7b93880302cb7",
+    "base.py": "cdbcb9dadfb1d2b64a17753d7b3ad83ec52a87a2f91447ae9305b42b7dbca407",
+    "launch.py": "59c5ff2c4573ccc7844a6ffe2769c17d37b535a2d8387d05d0ca78bb70d5d5b6",
+    "verify.py": "57033e0174e861c2e01e03f7fc269fbdf24db459e4cfde7a0aedf4ad65083d2d",
+    "compress.py": "d26e1449e551be3730fd6c84529afc3628884d29f5ca91b38aa1613fe2ca072f",
+    "pool.py": "2a324b4d037470ef9e172d05aa83fe0561d34dfb8474c7e4d3c97581f7a73799",
+    "verify_compression.py": "04c3be0315cbda89b37d1bef9fd36148751417628a93c43317ba4cc490fa6aac",
+    "finalize.py": "c6f696d783bc975259b3192c67975ca3695f8f550b78532bc20eefa4dfde822d",
+    "controller.py": "be979207209e36fe63c2c92b4f7937212cb1eb71e622bbe8117950c26327a204",
+    "capture_step.py": "f3c6951a9fd49cabe16b06dfffb2af53d51c9645f26f577f14963de846d127c0",
+    "verify_capture.py": "68515aa64cdb2f75ca6a39a8e7e3a6c54abb804dff0acd864cdd4bafbf8849d2",
+    "report.py": "1757abc00b2a34ace7e8cdc2d8d14d215abfd3e440f1ff96d5ac96f03d632db2",
+    "README.md": "6f8e9633716d197a84e6732569eaaec61bc58be2576ec006290d80dc784ca681",
+    "requirements.txt": "58e2f74effce36b5331228737e9ab65c83c8b0b36b5eaf8c49da61cfdc7709cf",
+    "monitor.py": "07d6671e2b5f6394f7ef97557b26721712610f9a7b79e90ab52b824a0d9e5166",
+    "rank_preview.py": "d77945b4c389f166e827db84c57406f5a21c01b8fd8c77b5831dd291f92e39a5",
+    "v1_common_dependency.py": "1606ff849f0cbf9626ef7ee4a36763efa84d9d23ab04a86561303b0c0f9fb257"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "phase": "main",
+  "method": "uniform",
+  "model_seed": 42,
+  "budget": 0.6,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "params": 159576,
+  "macs": 24312448,
+  "flops": 48624896,
+  "widths": [
+    10,
+    10,
+    9,
+    19,
+    19,
+    19,
+    39,
+    37,
+    37
+  ],
+  "best_val_accuracy": 90.86,
+  "best_epoch": 15,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 61.84,
+    "loss": 1.5142614624023438,
+    "n": 5000
+  },
+  "training_seconds": 48.06420163810253
+}

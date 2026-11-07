@@ -1,0 +1,17 @@
+[
+  {
+    "time": 1793909986.4820414,
+    "changed_field": "sensitivity_removed",
+    "old": [
+      0.2,
+      0.4
+    ],
+    "new": [
+      0.25,
+      0.5
+    ],
+    "reason": "Exact equal pruning fractions for widths 16/32/64; avoid rounding-stage confounding",
+    "before_any_diagnostic_or_pruning_result": true,
+    "changes_base_training": false
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar10_s42_dense",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "base",
+  "method": "dense",
+  "epochs": 150,
+  "budget": 1.0,
+  "train_seed": 42,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ]
+  },
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "initial_val": {
+    "accuracy": 9.96,
+    "loss": 3.983693310546875,
+    "n": 2500
+  },
+  "best_val_accuracy": 93.36,
+  "best_epoch": 142,
+  "training_seconds": 842.2652180977166
+}

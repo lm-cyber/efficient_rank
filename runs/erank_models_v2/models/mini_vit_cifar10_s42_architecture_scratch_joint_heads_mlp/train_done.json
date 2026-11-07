@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s42_architecture_scratch_joint_heads_mlp",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "architecture_scratch",
+  "method": "joint_heads_mlp",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 30042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      231,
+      300,
+      353,
+      323,
+      330,
+      312
+    ],
+    "head_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "params": 520931,
+  "macs": 35599296,
+  "flops": 71198592,
+  "initial_val": {
+    "accuracy": 5.28,
+    "loss": 2.3186451171875,
+    "n": 2500
+  },
+  "best_val_accuracy": 84.64,
+  "best_epoch": 120,
+  "training_seconds": 1042.771840678528
+}

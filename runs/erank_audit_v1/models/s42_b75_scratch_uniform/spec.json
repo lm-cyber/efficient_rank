@@ -1,0 +1,25 @@
+{
+  "phase": "scratch",
+  "method": "uniform",
+  "model_seed": 42,
+  "budget": 0.75,
+  "repeat": null,
+  "initialization_seed": 30042,
+  "epochs": 150,
+  "lr": 0.1,
+  "training_seed": 30042,
+  "params": 200718,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    12,
+    12,
+    12,
+    24,
+    24,
+    24,
+    47,
+    48,
+    47
+  ]
+}

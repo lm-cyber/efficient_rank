@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "completed_trainings": 504,
+  "completed_tests": 504,
+  "epochs": 21000,
+  "latency_rounds": 5,
+  "updated_at": 1794000495.5064828
+}

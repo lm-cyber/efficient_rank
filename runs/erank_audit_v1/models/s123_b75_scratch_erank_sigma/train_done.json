@@ -1,0 +1,31 @@
+{
+  "phase": "scratch",
+  "method": "erank_sigma",
+  "model_seed": 123,
+  "budget": 0.75,
+  "repeat": null,
+  "initialization_seed": 30123,
+  "params": 202014,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    12,
+    12,
+    12,
+    23,
+    24,
+    24,
+    45,
+    49,
+    49
+  ],
+  "best_val_accuracy": 92.36,
+  "best_epoch": 145,
+  "epochs": 150,
+  "initial_val": {
+    "accuracy": 9.98,
+    "loss": 3.138365380859375,
+    "n": 5000
+  },
+  "training_seconds": 348.9194700336084
+}

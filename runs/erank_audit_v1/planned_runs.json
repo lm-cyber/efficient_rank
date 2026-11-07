@@ -1,0 +1,632 @@
+[
+  {
+    "task": "base_s42",
+    "experiment": "E0",
+    "phase": "base",
+    "method": "original",
+    "model_seed": 42,
+    "budget": 1.0,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s42_b90_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 42,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b90_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 42,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b90_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 42,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b90_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s42_b90_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s42_b75_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s42_b75_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s42_b60_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 42,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b60_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 42,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b60_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 42,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b60_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s42_b60_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 42,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s42_b75_erank_sigma_random_channels",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_random_channels",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_erank_sigma_compensated",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_compensated",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_dense_ft",
+    "experiment": "E5",
+    "phase": "dense_control",
+    "method": "original_ft",
+    "model_seed": 42,
+    "budget": 1.0,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_scratch_uniform",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "uniform",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s42_b75_scratch_erank_sigma",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "model_seed": 42,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "base_s123",
+    "experiment": "E0",
+    "phase": "base",
+    "method": "original",
+    "model_seed": 123,
+    "budget": 1.0,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s123_b90_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 123,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b90_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 123,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b90_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 123,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b90_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s123_b90_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s123_b75_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s123_b75_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s123_b60_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 123,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b60_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 123,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b60_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 123,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b60_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s123_b60_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 123,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s123_b75_erank_sigma_random_channels",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_random_channels",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_erank_sigma_compensated",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_compensated",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_dense_ft",
+    "experiment": "E5",
+    "phase": "dense_control",
+    "method": "original_ft",
+    "model_seed": 123,
+    "budget": 1.0,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_scratch_uniform",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "uniform",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s123_b75_scratch_erank_sigma",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "model_seed": 123,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "base_s2026",
+    "experiment": "E0",
+    "phase": "base",
+    "method": "original",
+    "model_seed": 2026,
+    "budget": 1.0,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b90_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 2026,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b90_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 2026,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b90_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 2026,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b90_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s2026_b90_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.9,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s2026_b75_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s2026_b75_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s2026_b60_uniform",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "uniform",
+    "model_seed": 2026,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b60_erank_sigma",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_sigma",
+    "model_seed": 2026,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b60_erank_cov",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "erank_cov",
+    "model_seed": 2026,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b60_random_0",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 0
+  },
+  {
+    "task": "s2026_b60_random_1",
+    "experiment": "E3",
+    "phase": "main",
+    "method": "random",
+    "model_seed": 2026,
+    "budget": 0.6,
+    "epochs": 20,
+    "repeat": 1
+  },
+  {
+    "task": "s2026_b75_erank_sigma_random_channels",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_random_channels",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_erank_sigma_compensated",
+    "experiment": "E4",
+    "phase": "ablation",
+    "method": "erank_sigma_compensated",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_dense_ft",
+    "experiment": "E5",
+    "phase": "dense_control",
+    "method": "original_ft",
+    "model_seed": 2026,
+    "budget": 1.0,
+    "epochs": 20,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_scratch_uniform",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "uniform",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  },
+  {
+    "task": "s2026_b75_scratch_erank_sigma",
+    "experiment": "E6",
+    "phase": "scratch",
+    "method": "erank_sigma",
+    "model_seed": 2026,
+    "budget": 0.75,
+    "epochs": 150,
+    "repeat": null
+  }
+]

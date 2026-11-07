@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s42_sparse_uniform_ft",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "control",
+  "method": "sparse_uniform_ft",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      12,
+      12,
+      12,
+      24,
+      24,
+      24,
+      47,
+      48,
+      47
+    ]
+  },
+  "params": 206568,
+  "macs": 30400768,
+  "flops": 60801536,
+  "initial_val": {
+    "accuracy": 26.84,
+    "loss": 3.3350978515625,
+    "n": 2500
+  },
+  "best_val_accuracy": 64.32,
+  "best_epoch": 18,
+  "training_seconds": 117.02286064717919
+}

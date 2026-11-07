@@ -1,0 +1,13 @@
+{
+  "state": "training",
+  "task": "resnet20_cifar10_s42_ft_b75_svd",
+  "epoch": 20,
+  "epochs": 20,
+  "train_loss": 0.0297813720703125,
+  "val_accuracy": 92.6,
+  "val_loss": 0.26238661499023436,
+  "best_accuracy": 92.68,
+  "lr": 6.15582970243117e-05,
+  "seconds": 7.679701756685972,
+  "updated_at": 1793965916.1655328
+}

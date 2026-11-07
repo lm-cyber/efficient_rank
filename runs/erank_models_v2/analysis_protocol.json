@@ -1,0 +1,8 @@
+{
+  "frozen_at": 1793963891.2614517,
+  "primary_family_size": 24,
+  "seed_interval": "paired Student t, Bonferroni FWER 0.05",
+  "image_interval": "paired class-stratified bootstrap conditional on realized checkpoints",
+  "bootstrap_repeats": 2000,
+  "image_interval_role": "supplemental descriptive uncertainty, not a replacement for independent model seeds"
+}

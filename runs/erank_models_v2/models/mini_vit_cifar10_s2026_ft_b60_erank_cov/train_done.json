@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s2026_ft_b60_erank_cov",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "erank_cov",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      74,
+      132,
+      181,
+      148,
+      169,
+      54
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 384672,
+  "macs": 28484544,
+  "flops": 56969088,
+  "initial_val": {
+    "accuracy": 49.92,
+    "loss": 1.5617540283203124,
+    "n": 2500
+  },
+  "best_val_accuracy": 83.92,
+  "best_epoch": 17,
+  "training_seconds": 66.59582032915205
+}

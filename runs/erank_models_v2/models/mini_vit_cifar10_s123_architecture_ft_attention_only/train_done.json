@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s123_architecture_ft_attention_only",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "architecture_ft",
+  "method": "attention_only",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "params": 534442,
+  "macs": 34898880,
+  "flops": 69797760,
+  "initial_val": {
+    "accuracy": 35.12,
+    "loss": 1.8766212890625,
+    "n": 2500
+  },
+  "best_val_accuracy": 82.52,
+  "best_epoch": 20,
+  "training_seconds": 63.647311181761324
+}

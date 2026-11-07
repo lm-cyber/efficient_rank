@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s42_ft_b90_taylor",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "taylor",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      14,
+      14,
+      14,
+      29,
+      29,
+      29,
+      59,
+      59,
+      58
+    ]
+  },
+  "params": 252038,
+  "macs": 36483328,
+  "flops": 72966656,
+  "initial_val": {
+    "accuracy": 57.4,
+    "loss": 1.636303955078125,
+    "n": 2500
+  },
+  "best_val_accuracy": 65.6,
+  "best_epoch": 18,
+  "training_seconds": 126.49514083657414
+}

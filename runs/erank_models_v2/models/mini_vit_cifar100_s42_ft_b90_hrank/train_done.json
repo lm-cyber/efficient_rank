@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s42_ft_b90_hrank",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "hrank",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      320,
+      320,
+      320,
+      319,
+      319,
+      319
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 617089,
+  "macs": 42734976,
+  "flops": 85469952,
+  "initial_val": {
+    "accuracy": 44.56,
+    "loss": 2.3332056640625,
+    "n": 2500
+  },
+  "best_val_accuracy": 57.48,
+  "best_epoch": 14,
+  "training_seconds": 153.13468478340656
+}

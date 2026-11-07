@@ -1,0 +1,13 @@
+{
+  "state": "training",
+  "task": "full_engine_resnet20_True",
+  "epoch": 2,
+  "epochs": 2,
+  "train_loss": 1.257738107638889,
+  "val_accuracy": 51.64,
+  "val_loss": 1.391773193359375,
+  "best_accuracy": 51.64,
+  "lr": 0.05,
+  "seconds": 6.806056913919747,
+  "updated_at": 1793962518.5669072
+}

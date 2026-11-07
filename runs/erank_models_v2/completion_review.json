@@ -1,0 +1,11 @@
+{
+  "checked_at": 1794051505.096576,
+  "trainings": 504,
+  "epochs": 21000,
+  "tests": 504,
+  "latency_series": 2520,
+  "rank_snapshots": 168,
+  "all_training_precedes_first_test": true,
+  "recorded_failures": 0,
+  "plot_review": "accuracy_flops, vit_architectures, rank_dynamics; colorbar layout corrected without numeric changes"
+}

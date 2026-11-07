@@ -1,0 +1,32 @@
+{
+  "phase": "main",
+  "method": "erank_cov",
+  "model_seed": 2026,
+  "budget": 0.75,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "params": 207204,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    10,
+    12,
+    11,
+    21,
+    27,
+    27,
+    41,
+    53,
+    51
+  ],
+  "best_val_accuracy": 91.98,
+  "best_epoch": 16,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 81.56,
+    "loss": 0.7027882873535156,
+    "n": 5000
+  },
+  "training_seconds": 47.2576175481081
+}

@@ -1,0 +1,11 @@
+{
+  "at": 1794051469.835032,
+  "change": "Move rank heatmap colorbar outside axes to avoid covering data",
+  "training_or_statistical_changes": false,
+  "unchanged_numeric_sha256": {
+    "results.csv": "0d5d099464a8dcdd25ec366e9f7255511196722f9c693fb2f7afdc545567857d",
+    "main_summary.csv": "1da6f04278d394c94f473f99aacb2e35aa8b39836fb5c4ef5b687a35f9fc5584",
+    "primary_comparisons.csv": "f132ccf18a29ef838c6ad09297bcd9bf7b02403715594ab04ac526c515e7e72e",
+    "rank_dynamics.csv": "edc0ba36b28fe02606967634f9337e7881273cace2a39f47329e0af84b6690ac"
+  }
+}

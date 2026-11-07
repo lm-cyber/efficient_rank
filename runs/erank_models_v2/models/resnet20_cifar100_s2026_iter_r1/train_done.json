@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s2026_iter_r1",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "iterative",
+  "method": "erank_ceil_r1",
+  "epochs": 20,
+  "budget": null,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      15,
+      15,
+      15,
+      30,
+      31,
+      31,
+      59,
+      62,
+      61
+    ]
+  },
+  "params": 262578,
+  "macs": 38510848,
+  "flops": 77021696,
+  "initial_val": {
+    "accuracy": 59.4,
+    "loss": 1.5849520751953126,
+    "n": 2500
+  },
+  "best_val_accuracy": 66.68,
+  "best_epoch": 16,
+  "training_seconds": 125.07791303284466
+}

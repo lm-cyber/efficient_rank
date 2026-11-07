@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s123_scratch_b75_erank_cov",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "scratch",
+  "method": "erank_cov",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 30123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      10,
+      12,
+      12,
+      22,
+      27,
+      26,
+      43,
+      51,
+      48
+    ]
+  },
+  "params": 209162,
+  "macs": 30400768,
+  "flops": 60801536,
+  "initial_val": {
+    "accuracy": 1.32,
+    "loss": 7.69991513671875,
+    "n": 2500
+  },
+  "best_val_accuracy": 66.04,
+  "best_epoch": 141,
+  "training_seconds": 903.6367134544998
+}

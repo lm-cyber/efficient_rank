@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar10_s42_ft_b90_slimming",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "slimming",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      15,
+      8,
+      16,
+      31,
+      31,
+      32,
+      63,
+      64,
+      49
+    ]
+  },
+  "params": 247924,
+  "macs": 36477568,
+  "flops": 72955136,
+  "initial_val": {
+    "accuracy": 86.24,
+    "loss": 0.47964588012695314,
+    "n": 2500
+  },
+  "best_val_accuracy": 92.64,
+  "best_epoch": 15,
+  "training_seconds": 112.05050845071673
+}

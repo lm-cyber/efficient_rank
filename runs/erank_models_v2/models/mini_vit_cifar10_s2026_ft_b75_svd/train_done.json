@@ -1,0 +1,59 @@
+{
+  "task": "mini_vit_cifar10_s2026_ft_b75_svd",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "svd",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.0.mlp.fc1": 14,
+      "blocks.1.mlp.fc1": 61,
+      "blocks.2.attn.qkv": 16,
+      "blocks.3.attn.qkv": 16,
+      "blocks.4.attn.qkv": 17,
+      "blocks.5.attn.qkv": 18,
+      "blocks.5.mlp.fc1": 12,
+      "blocks.5.mlp.fc2": 10
+    }
+  },
+  "params": 497290,
+  "macs": 35593152,
+  "flops": 71186304,
+  "initial_val": {
+    "accuracy": 62.72,
+    "loss": 1.1835177978515625,
+    "n": 2500
+  },
+  "best_val_accuracy": 83.52,
+  "best_epoch": 17,
+  "training_seconds": 79.81909031793475
+}

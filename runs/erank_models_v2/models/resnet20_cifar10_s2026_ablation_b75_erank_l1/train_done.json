@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar10_s2026_ablation_b75_erank_l1",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "selection_ablation",
+  "method": "erank_l1",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      11,
+      12,
+      12,
+      23,
+      25,
+      25,
+      45,
+      49,
+      49
+    ]
+  },
+  "params": 202880,
+  "macs": 30395008,
+  "flops": 60790016,
+  "initial_val": {
+    "accuracy": 79.04,
+    "loss": 0.773072607421875,
+    "n": 2500
+  },
+  "best_val_accuracy": 92.32,
+  "best_epoch": 15,
+  "training_seconds": 122.44922437146306
+}

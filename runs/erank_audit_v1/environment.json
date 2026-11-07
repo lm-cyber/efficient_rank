@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.1.0-42-amd64-x86_64-with-glibc2.39",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "visible_devices": "GPU-46149a7e-281f-ff07-cde6-a78793e0f997",
+  "started_at": 1793909606.6085618
+}

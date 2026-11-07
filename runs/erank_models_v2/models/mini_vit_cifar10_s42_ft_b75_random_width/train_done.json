@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s42_ft_b75_random_width",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "random_width",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      226,
+      232,
+      219,
+      221,
+      216,
+      223
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 496419,
+  "macs": 35599296,
+  "flops": 71198592,
+  "initial_val": {
+    "accuracy": 78.2,
+    "loss": 0.742851318359375,
+    "n": 2500
+  },
+  "best_val_accuracy": 85.2,
+  "best_epoch": 20,
+  "training_seconds": 144.3744454178959
+}

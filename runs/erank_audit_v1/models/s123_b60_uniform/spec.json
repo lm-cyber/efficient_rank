@@ -1,0 +1,26 @@
+{
+  "phase": "main",
+  "method": "uniform",
+  "model_seed": 123,
+  "budget": 0.6,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "epochs": 20,
+  "lr": 0.01,
+  "training_seed": 100123,
+  "params": 159576,
+  "macs": 24312448,
+  "flops": 48624896,
+  "widths": [
+    10,
+    10,
+    9,
+    19,
+    19,
+    19,
+    39,
+    37,
+    37
+  ]
+}

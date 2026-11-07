@@ -1,0 +1,71 @@
+{
+  "before": {
+    "accuracy": 67.12,
+    "loss": 1.0122248291015625,
+    "n": 2500
+  },
+  "after_bn": {
+    "accuracy": 67.12,
+    "loss": 1.0122248291015625,
+    "n": 2500
+  },
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      242,
+      298,
+      361,
+      321,
+      319,
+      308
+    ],
+    "head_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "kept_heads": [
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "actual_cost": {
+    "params": 520931,
+    "macs": 35599296,
+    "flops": 71198592
+  },
+  "dense_macs": 47481792
+}

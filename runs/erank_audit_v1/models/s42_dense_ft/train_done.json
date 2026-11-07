@@ -1,0 +1,30 @@
+{
+  "phase": "dense_control",
+  "method": "original_ft",
+  "model_seed": 42,
+  "budget": 1.0,
+  "repeat": null,
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "widths": [
+    16,
+    16,
+    16,
+    32,
+    32,
+    32,
+    64,
+    64,
+    64
+  ],
+  "best_val_accuracy": 92.6,
+  "best_epoch": 0,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 92.6,
+    "loss": 0.27884788513183595,
+    "n": 5000
+  },
+  "training_seconds": 44.09862559475005
+}

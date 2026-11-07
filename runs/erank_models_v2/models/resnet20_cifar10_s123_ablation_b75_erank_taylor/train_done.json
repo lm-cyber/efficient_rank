@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar10_s123_ablation_b75_erank_taylor",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "selection_ablation",
+  "method": "erank_taylor",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      12,
+      12,
+      12,
+      23,
+      24,
+      25,
+      45,
+      48,
+      48
+    ]
+  },
+  "params": 200284,
+  "macs": 30395008,
+  "flops": 60790016,
+  "initial_val": {
+    "accuracy": 84.28,
+    "loss": 0.5636195678710938,
+    "n": 2500
+  },
+  "best_val_accuracy": 93.2,
+  "best_epoch": 15,
+  "training_seconds": 118.34606758505106
+}

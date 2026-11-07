@@ -1,0 +1,28 @@
+{
+  "phase": "base",
+  "method": "original",
+  "model_seed": 123,
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "widths": [
+    16,
+    16,
+    16,
+    32,
+    32,
+    32,
+    64,
+    64,
+    64
+  ],
+  "best_val_accuracy": 92.52,
+  "best_epoch": 137,
+  "epochs": 150,
+  "initial_val": {
+    "accuracy": 9.96,
+    "loss": 3.245325439453125,
+    "n": 5000
+  },
+  "training_seconds": 323.08709912747145
+}

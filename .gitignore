@@ -1,0 +1,27 @@
+# Local datasets, trained weights and activation caches.
+/data/
+*.pt
+*.pth
+/runs/erank_audit_v1/diagnostics/**/*.npz
+/runs/*/smoke/
+
+# Python / notebook caches and local environments.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# Console logs, transient process markers and local diagnostics.
+*.log
+*.tmp
+/runs/*/process.json
+/runs/*/processes.json
+/runs/*/*_process.json
+/runs/*/setup_failure_before_download.json
+/runs/*/failures/
+
+# Separate output directories when reproducing the published experiments.
+/runs/*_published/

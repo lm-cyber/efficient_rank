@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar100_s2026_ft_b60_erank_cov",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "erank_cov",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      9,
+      9,
+      9,
+      17,
+      21,
+      21,
+      35,
+      42,
+      38
+    ]
+  },
+  "params": 169750,
+  "macs": 24318208,
+  "flops": 48636416,
+  "source_snapshot": "source_processes/2358586",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

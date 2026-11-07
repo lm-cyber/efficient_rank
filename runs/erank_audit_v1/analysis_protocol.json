@@ -1,0 +1,19 @@
+{
+  "recorded_at": 1793910830.064969,
+  "before_test": true,
+  "comparisons": [
+    "erank_sigma - uniform",
+    "erank_cov - uniform",
+    "random - uniform"
+  ],
+  "budgets": [
+    0.9,
+    0.75,
+    0.6
+  ],
+  "family_size": 9,
+  "familywise_alpha": 0.05,
+  "correction": "Bonferroni t intervals on three paired seed differences",
+  "additional_interval": "paired image bootstrap conditional on trained models",
+  "scope": "exploratory: three base seeds and unverified normality"
+}

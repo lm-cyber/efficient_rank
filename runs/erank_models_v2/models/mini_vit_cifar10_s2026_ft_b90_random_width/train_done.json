@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s2026_ft_b90_random_width",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "random_width",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      318,
+      315,
+      327,
+      313,
+      320,
+      324
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 608359,
+  "macs": 42726336,
+  "flops": 85452672,
+  "initial_val": {
+    "accuracy": 84.6,
+    "loss": 0.5567129272460938,
+    "n": 2500
+  },
+  "best_val_accuracy": 85.56,
+  "best_epoch": 18,
+  "training_seconds": 63.03631229046732
+}

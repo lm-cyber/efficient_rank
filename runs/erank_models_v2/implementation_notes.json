@@ -1,0 +1,17 @@
+{
+  "cuda_graph_forward_backward": "Enabled for later workers after exact state equivalence checks; current base workers remain eager",
+  "verification": "verification_capture.json",
+  "changed_at": 1793961829.3752065,
+  "hyperparameter_changes": false,
+  "checkpoint_finalization": {
+    "at": 1793964286.713468,
+    "change": "Explicit final save of selected best state; no optimizer or training change. Added manifest/cost/checkpoint consistency checks before test."
+  },
+  "snapshot_policy": {
+    "at": 1793964377.2208939,
+    "source_base": "original eager base workers",
+    "source_pool": "original captured implementation used by the two early ViT main jobs; serialization-only patch reversed in this snapshot",
+    "source_processes": "each subsequent worker snapshots its actual source at setup; spec.json identifies that snapshot",
+    "changes": "final best-state serialization and consistency checks only; training math unchanged"
+  }
+}

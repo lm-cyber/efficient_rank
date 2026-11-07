@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar10_s2026_ft_b60_slimming",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "slimming",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      9,
+      14,
+      9,
+      20,
+      14,
+      19,
+      37,
+      48,
+      24
+    ]
+  },
+  "params": 153950,
+  "macs": 24312448,
+  "flops": 48624896,
+  "source_snapshot": "source_processes/2358671",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

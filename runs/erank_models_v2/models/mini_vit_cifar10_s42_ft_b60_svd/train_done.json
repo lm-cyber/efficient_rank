@@ -1,0 +1,62 @@
+{
+  "task": "mini_vit_cifar10_s42_ft_b60_svd",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "svd",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.0.mlp.fc1": 14,
+      "blocks.1.attn.qkv": 16,
+      "blocks.1.mlp.fc1": 11,
+      "blocks.2.attn.qkv": 14,
+      "blocks.2.mlp.fc1": 10,
+      "blocks.3.attn.qkv": 15,
+      "blocks.4.attn.qkv": 16,
+      "blocks.4.mlp.fc2": 12,
+      "blocks.5.attn.qkv": 17,
+      "blocks.5.mlp.fc1": 11,
+      "blocks.5.mlp.fc2": 10
+    }
+  },
+  "params": 386218,
+  "macs": 28484544,
+  "flops": 56969088,
+  "initial_val": {
+    "accuracy": 19.2,
+    "loss": 2.403401611328125,
+    "n": 2500
+  },
+  "best_val_accuracy": 78.16,
+  "best_epoch": 19,
+  "training_seconds": 177.0048603285104
+}

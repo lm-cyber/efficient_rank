@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s123_ablation_b75_erank_l1",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "selection_ablation",
+  "method": "erank_l1",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      181,
+      232,
+      254,
+      237,
+      235,
+      198
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 496419,
+  "macs": 35599296,
+  "flops": 71198592,
+  "initial_val": {
+    "accuracy": 71.84,
+    "loss": 0.9512918823242188,
+    "n": 2500
+  },
+  "best_val_accuracy": 84.0,
+  "best_epoch": 15,
+  "training_seconds": 142.75537578389049
+}

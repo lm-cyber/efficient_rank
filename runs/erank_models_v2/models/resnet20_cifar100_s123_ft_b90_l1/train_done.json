@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar100_s123_ft_b90_l1",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "l1",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      14,
+      14,
+      14,
+      29,
+      29,
+      29,
+      59,
+      59,
+      58
+    ]
+  },
+  "params": 252038,
+  "macs": 36483328,
+  "flops": 72966656,
+  "initial_val": {
+    "accuracy": 53.84,
+    "loss": 1.8451129150390626,
+    "n": 2500
+  },
+  "best_val_accuracy": 65.28,
+  "best_epoch": 16,
+  "training_seconds": 126.64625201839954
+}

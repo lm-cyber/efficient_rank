@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar10_s42_iter_r2",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "iterative",
+  "method": "erank_ceil_r2",
+  "epochs": 20,
+  "budget": null,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      14,
+      15,
+      15,
+      28,
+      30,
+      31,
+      54,
+      60,
+      58
+    ]
+  },
+  "params": 244892,
+  "macs": 37196416,
+  "flops": 74392832,
+  "source_snapshot": "source_processes/2358671",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

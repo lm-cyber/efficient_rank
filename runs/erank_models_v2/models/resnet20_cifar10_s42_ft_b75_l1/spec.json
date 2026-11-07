@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar10_s42_ft_b75_l1",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 42,
+  "phase": "main",
+  "method": "l1",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100042,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      12,
+      12,
+      12,
+      24,
+      24,
+      24,
+      47,
+      48,
+      47
+    ]
+  },
+  "params": 200718,
+  "macs": 30395008,
+  "flops": 60790016,
+  "source_snapshot": "source_processes/2358671",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

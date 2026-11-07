@@ -1,0 +1,9 @@
+[
+  {
+    "at": 1793969448.5131328,
+    "change": "Mark paired-seed t intervals unestimable when observed SD <= 1e-10 instead of reporting zero-width intervals",
+    "reason": "Degenerate sample variance with only three rounded accuracy differences cannot justify exact population certainty",
+    "before_test": true,
+    "unchanged": "24 primary contrasts, all training, bootstrap, data, hyperparameters"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "before": {
+    "accuracy": 42.84,
+    "loss": 1.8016976806640626,
+    "n": 2500
+  },
+  "after_bn": {
+    "accuracy": 42.84,
+    "loss": 1.8016976806640626,
+    "n": 2500
+  },
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.0.mlp.fc1": 14,
+      "blocks.1.mlp.fc1": 16,
+      "blocks.3.attn.qkv": 17,
+      "blocks.4.attn.qkv": 17,
+      "blocks.5.attn.qkv": 19,
+      "blocks.5.mlp.fc1": 11,
+      "blocks.5.mlp.fc2": 10
+    }
+  },
+  "factor_ranks": {
+    "blocks.0.mlp.fc1": 14,
+    "blocks.1.mlp.fc1": 16,
+    "blocks.3.attn.qkv": 17,
+    "blocks.4.attn.qkv": 17,
+    "blocks.5.attn.qkv": 19,
+    "blocks.5.mlp.fc1": 11,
+    "blocks.5.mlp.fc2": 10
+  },
+  "target_macs": 35611344.0,
+  "actual_macs": 35605440,
+  "budget_gap_fraction": 0.00012434240055640697
+}

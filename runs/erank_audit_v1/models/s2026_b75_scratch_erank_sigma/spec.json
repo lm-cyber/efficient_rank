@@ -1,0 +1,25 @@
+{
+  "phase": "scratch",
+  "method": "erank_sigma",
+  "model_seed": 2026,
+  "budget": 0.75,
+  "repeat": null,
+  "initialization_seed": 32026,
+  "epochs": 150,
+  "lr": 0.1,
+  "training_seed": 32026,
+  "params": 202880,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    11,
+    12,
+    12,
+    23,
+    25,
+    25,
+    45,
+    49,
+    49
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "checks": "hand-computed ratios; mean of ratios; reciprocal timing; all baseline/budget/seed combinations; unchanged primary effects; input hashes; report links",
+  "status": "passed",
+  "training_or_test_reruns": 0,
+  "comparison_count": 168,
+  "paired_count": 504
+}

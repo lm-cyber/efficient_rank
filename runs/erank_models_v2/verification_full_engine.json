@@ -1,0 +1,20 @@
+{
+  "passed": [
+    {
+      "family": "resnet20",
+      "epochs": 2,
+      "training_images_per_epoch": 45000,
+      "max_state_difference": 0.0,
+      "seconds_eager": 15.207394460216165,
+      "seconds_captured": 14.911996312439442
+    },
+    {
+      "family": "mini_vit",
+      "epochs": 2,
+      "training_images_per_epoch": 45000,
+      "max_state_difference": 0.0,
+      "seconds_eager": 22.858320087194443,
+      "seconds_captured": 20.422391858883202
+    }
+  ]
+}

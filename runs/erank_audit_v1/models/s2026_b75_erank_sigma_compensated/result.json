@@ -1,0 +1,47 @@
+{
+  "phase": "ablation",
+  "method": "erank_sigma_compensated",
+  "model_seed": 2026,
+  "budget": 0.75,
+  "selection": "qr",
+  "compensation": true,
+  "repeat": null,
+  "params": 202880,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    11,
+    12,
+    12,
+    23,
+    25,
+    25,
+    45,
+    49,
+    49
+  ],
+  "best_val_accuracy": 91.78,
+  "best_epoch": 20,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 85.62,
+    "loss": 0.523857699584961,
+    "n": 5000
+  },
+  "training_seconds": 47.49191181641072,
+  "before": {
+    "accuracy": 85.2,
+    "loss": 0.5447111541748046,
+    "n": 5000
+  },
+  "after_bn": {
+    "accuracy": 85.62,
+    "loss": 0.523857699584961,
+    "n": 5000
+  },
+  "after_ft": {
+    "accuracy": 91.78,
+    "loss": 0.2881400421142578,
+    "n": 5000
+  }
+}

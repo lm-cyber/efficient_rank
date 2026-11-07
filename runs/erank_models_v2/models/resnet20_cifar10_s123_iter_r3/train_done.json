@@ -1,0 +1,37 @@
+{
+  "task": "resnet20_cifar10_s123_iter_r3",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "iterative",
+  "method": "erank_ceil_r3",
+  "epochs": 20,
+  "budget": null,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      15,
+      15,
+      15,
+      25,
+      29,
+      31,
+      51,
+      59,
+      57
+    ]
+  },
+  "params": 238396,
+  "macs": 36698752,
+  "flops": 73397504,
+  "initial_val": {
+    "accuracy": 88.2,
+    "loss": 0.39640159912109374,
+    "n": 2500
+  },
+  "best_val_accuracy": 92.36,
+  "best_epoch": 19,
+  "training_seconds": 124.72986008226871
+}

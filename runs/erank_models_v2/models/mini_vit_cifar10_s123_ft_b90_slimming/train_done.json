@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar10_s123_ft_b90_slimming",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "slimming",
+  "epochs": 20,
+  "budget": 0.9,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      370,
+      358,
+      342,
+      327,
+      292,
+      228
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 608359,
+  "macs": 42726336,
+  "flops": 85452672,
+  "initial_val": {
+    "accuracy": 83.32,
+    "loss": 0.5765093872070313,
+    "n": 2500
+  },
+  "best_val_accuracy": 83.4,
+  "best_epoch": 6,
+  "training_seconds": 150.1397391455248
+}

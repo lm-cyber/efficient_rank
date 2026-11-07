@@ -1,0 +1,45 @@
+{
+  "task": "mini_vit_cifar10_s123_iter_r2",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "iterative",
+  "method": "erank_ceil_r2",
+  "epochs": 20,
+  "budget": null,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      137,
+      200,
+      229,
+      214,
+      213,
+      146
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 458205,
+  "macs": 33166272,
+  "flops": 66332544,
+  "source_snapshot": "source_processes/2360823",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.0001
+}

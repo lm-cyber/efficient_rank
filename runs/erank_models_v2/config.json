@@ -1,0 +1,90 @@
+{
+  "protocol": "erank_models_v2",
+  "gpu_index": 0,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "datasets": [
+    "cifar10",
+    "cifar100"
+  ],
+  "families": [
+    "resnet20",
+    "mini_vit"
+  ],
+  "budgets": [
+    0.9,
+    0.75,
+    0.6
+  ],
+  "split_seed": 42,
+  "train_size": 45000,
+  "validation_size": 2500,
+  "calibration_holdout_size": 2500,
+  "calibration_images": 1024,
+  "score_images": 1024,
+  "rank_positions": 16,
+  "rank_epochs": [
+    0,
+    1,
+    10,
+    30,
+    60,
+    100,
+    150
+  ],
+  "base_epochs": 150,
+  "scratch_epochs": 150,
+  "finetune_epochs": 20,
+  "batch_size": 256,
+  "eval_batch_size": 512,
+  "bn_l1": 0.0001,
+  "gate_l1": 0.0001,
+  "resnet_lr": 0.1,
+  "resnet_ft_lr": 0.01,
+  "resnet_weight_decay": 0.0005,
+  "vit_lr": 0.0005,
+  "vit_ft_lr": 0.0001,
+  "vit_weight_decay": 0.05,
+  "vit_warmup_epochs": 5,
+  "vit_label_smoothing": 0.1,
+  "vit_mixup_alpha": 0.2,
+  "vit": {
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4
+  },
+  "main_methods": [
+    "uniform_qr",
+    "erank_sigma",
+    "erank_cov",
+    "random_width",
+    "l1",
+    "taylor",
+    "hrank",
+    "slimming",
+    "svd"
+  ],
+  "scratch_methods": [
+    "uniform_qr",
+    "erank_sigma",
+    "erank_cov"
+  ],
+  "scratch_budget": 0.75,
+  "iterative_rounds": 3,
+  "bootstrap_repeats": 2000,
+  "precision": "bf16_amp",
+  "deterministic": true,
+  "latency_batches": [
+    1,
+    128
+  ],
+  "latency_warmup": 30,
+  "latency_repeats": 100,
+  "latency_rounds": 5
+}

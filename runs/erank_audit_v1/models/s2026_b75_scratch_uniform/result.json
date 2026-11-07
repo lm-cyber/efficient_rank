@@ -1,0 +1,36 @@
+{
+  "phase": "scratch",
+  "method": "uniform",
+  "model_seed": 2026,
+  "budget": 0.75,
+  "repeat": null,
+  "initialization_seed": 32026,
+  "params": 200718,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    12,
+    12,
+    12,
+    24,
+    24,
+    24,
+    47,
+    48,
+    47
+  ],
+  "best_val_accuracy": 91.42,
+  "best_epoch": 141,
+  "epochs": 150,
+  "initial_val": {
+    "accuracy": 6.54,
+    "loss": 3.84540107421875,
+    "n": 5000
+  },
+  "training_seconds": 341.6629936909303,
+  "after_training": {
+    "accuracy": 91.42,
+    "loss": 0.31195199127197265,
+    "n": 5000
+  }
+}

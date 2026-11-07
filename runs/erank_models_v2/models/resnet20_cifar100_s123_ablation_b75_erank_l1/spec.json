@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar100_s123_ablation_b75_erank_l1",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "selection_ablation",
+  "method": "erank_l1",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      11,
+      12,
+      12,
+      24,
+      25,
+      24,
+      47,
+      49,
+      48
+    ]
+  },
+  "params": 209164,
+  "macs": 30400768,
+  "flops": 60801536,
+  "source_snapshot": "source_processes/2358586",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "resnet20: full-width pruning preserves exact outputs",
+    "resnet20 b0.9: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "resnet20 b0.75: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "resnet20 b0.6: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "mini_vit: full-width pruning preserves exact outputs",
+    "mini_vit b0.9: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "mini_vit b0.75: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "mini_vit b0.6: equal channel budgets, random constraints, SVD cost/roundtrip/backward",
+    "ViT: head pruning identity/gradient; both depth alternatives match 75% compute"
+  ]
+}

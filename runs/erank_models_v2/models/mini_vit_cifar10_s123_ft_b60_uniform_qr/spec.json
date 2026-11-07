@@ -1,0 +1,45 @@
+{
+  "task": "mini_vit_cifar10_s123_ft_b60_uniform_qr",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "uniform_qr",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      127,
+      126,
+      126,
+      126,
+      126,
+      127
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 384672,
+  "macs": 28484544,
+  "flops": 56969088,
+  "source_snapshot": "source_processes/2360823",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.0001
+}

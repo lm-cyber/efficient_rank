@@ -1,0 +1,53 @@
+{
+  "task": "mini_vit_cifar100_s2026_architecture_depth8_dim64",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "architecture_scratch",
+  "method": "depth8_dim64",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 32026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 8,
+    "dim": 64,
+    "heads": 2,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      349,
+      349,
+      349,
+      348,
+      348,
+      348,
+      348,
+      348
+    ],
+    "head_counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "params": 509063,
+  "macs": 35617024,
+  "flops": 71234048,
+  "initial_val": {
+    "accuracy": 1.04,
+    "loss": 4.60499404296875,
+    "n": 2500
+  },
+  "best_val_accuracy": 57.32,
+  "best_epoch": 138,
+  "training_seconds": 675.7141849370673
+}

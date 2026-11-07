@@ -1,0 +1,49 @@
+{
+  "task": "mini_vit_cifar100_s123_ft_b60_taylor",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "taylor",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      127,
+      126,
+      126,
+      126,
+      126,
+      127
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 393402,
+  "macs": 28493184,
+  "flops": 56986368,
+  "initial_val": {
+    "accuracy": 17.32,
+    "loss": 3.817603125,
+    "n": 2500
+  },
+  "best_val_accuracy": 56.48,
+  "best_epoch": 20,
+  "training_seconds": 131.58279355242848
+}

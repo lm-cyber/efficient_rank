@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar10_s123_ft_b75_hrank",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "hrank",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      12,
+      12,
+      12,
+      24,
+      24,
+      24,
+      47,
+      48,
+      47
+    ]
+  },
+  "params": 200718,
+  "macs": 30395008,
+  "flops": 60790016,
+  "source_snapshot": "source_processes/2358671",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

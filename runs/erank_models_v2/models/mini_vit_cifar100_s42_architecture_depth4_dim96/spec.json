@@ -1,0 +1,41 @@
+{
+  "task": "mini_vit_cifar100_s42_architecture_depth4_dim96",
+  "family": "mini_vit",
+  "dataset": "cifar100",
+  "model_seed": 42,
+  "phase": "architecture_scratch",
+  "method": "depth4_dim96",
+  "epochs": 150,
+  "budget": 0.75,
+  "train_seed": 30042,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 100,
+    "depth": 4,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      463,
+      462,
+      462,
+      462
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "params": 528509,
+  "macs": 35607936,
+  "flops": 71215872,
+  "source_snapshot": "source_processes/2360925",
+  "ft": false,
+  "sparse": false,
+  "lr": 0.0005
+}

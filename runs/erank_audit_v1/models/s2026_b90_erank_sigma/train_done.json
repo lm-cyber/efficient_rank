@@ -1,0 +1,32 @@
+{
+  "phase": "main",
+  "method": "erank_sigma",
+  "model_seed": 2026,
+  "budget": 0.9,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": null,
+  "params": 245754,
+  "macs": 36477568,
+  "flops": 72955136,
+  "widths": [
+    14,
+    14,
+    14,
+    28,
+    29,
+    30,
+    57,
+    59,
+    59
+  ],
+  "best_val_accuracy": 92.66,
+  "best_epoch": 20,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 88.84,
+    "loss": 0.3855304656982422,
+    "n": 5000
+  },
+  "training_seconds": 48.36323681846261
+}

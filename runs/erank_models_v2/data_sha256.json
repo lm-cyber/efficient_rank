@@ -1,0 +1,10 @@
+{
+  "data/train_images.npy": "cca17af9c1cff570c8c91fdb9f8bfc450d62dc4ff73ba6fb849b2b49e0c668f2",
+  "data/train_labels.npy": "9dfee6f275bac0f14e63de8d1091cd1f4487a16d30c6d8726f61d1b8f999c745",
+  "data/test_images.npy": "efbfa3b24c4f91c6febe8a57d87b6448f2c1226d8b2aa24d14db1eea85ad46c6",
+  "data/test_labels.npy": "fc48d9ecfdbeacce2dacf004498170f2df12e75e3485475017d2663b587a92f3",
+  "data/cifar100/train_images.npy": "26f5f26a8d71d97887e6a7f175322c09a4375bb1234523b0c781633de351e40b",
+  "data/cifar100/train_labels.npy": "233cdd4afc94cd00f3ddec6f8640168bf76a6872168cf6c5a9990ac9f144be3b",
+  "data/cifar100/test_images.npy": "4af8a71e3de0e4c2b6467cb7c7580104c94f14b48da088accac244eab1893b32",
+  "data/cifar100/test_labels.npy": "7827272d0fbeee517a81b235f35fae2128af64393371c2fdde1c8f9a638e4a1a"
+}

@@ -1,0 +1,24 @@
+{
+  "phase": "dense_control",
+  "method": "original_ft",
+  "model_seed": 2026,
+  "budget": 1.0,
+  "repeat": null,
+  "epochs": 20,
+  "lr": 0.01,
+  "training_seed": 102026,
+  "params": 269722,
+  "macs": 40551040,
+  "flops": 81102080,
+  "widths": [
+    16,
+    16,
+    16,
+    32,
+    32,
+    32,
+    64,
+    64,
+    64
+  ]
+}

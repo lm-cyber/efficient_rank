@@ -1,0 +1,45 @@
+{
+  "updated_at_utc": "2026-11-07 11:38:25 UTC",
+  "completed_trainings": 504,
+  "planned_trainings": 504,
+  "completed_epochs_including_active": 21000,
+  "planned_epochs": 21000,
+  "completed_tests": 504,
+  "completed_latency_series": 2520,
+  "state": "complete",
+  "groups": [
+    {
+      "family": "resnet20",
+      "dataset": "cifar10",
+      "planned": 117,
+      "completed": 117,
+      "state": "trainings_complete",
+      "updated_at": 1793986552.7466493
+    },
+    {
+      "family": "resnet20",
+      "dataset": "cifar100",
+      "planned": 117,
+      "completed": 117,
+      "state": "trainings_complete",
+      "updated_at": 1793986635.7219
+    },
+    {
+      "family": "mini_vit",
+      "dataset": "cifar10",
+      "planned": 135,
+      "completed": 135,
+      "state": "trainings_complete",
+      "updated_at": 1793996690.8532612
+    },
+    {
+      "family": "mini_vit",
+      "dataset": "cifar100",
+      "planned": 135,
+      "completed": 135,
+      "state": "trainings_complete",
+      "updated_at": 1793996829.807346
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,45 @@
+{
+  "task": "resnet20_cifar100_s123_ft_b75_svd",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 123,
+  "phase": "main",
+  "method": "svd",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 100123,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      16,
+      16,
+      16,
+      32,
+      32,
+      32,
+      64,
+      64,
+      64
+    ],
+    "factors": {
+      "blocks.0.conv1": 5,
+      "blocks.0.conv2": 4,
+      "blocks.1.conv1": 4,
+      "blocks.1.conv2": 3,
+      "blocks.2.conv2": 4,
+      "blocks.8.conv2": 18
+    }
+  },
+  "params": 241908,
+  "macs": 30415104,
+  "flops": 60830208,
+  "initial_val": {
+    "accuracy": 34.88,
+    "loss": 2.75886689453125,
+    "n": 2500
+  },
+  "best_val_accuracy": 63.56,
+  "best_epoch": 19,
+  "training_seconds": 120.68932197522372
+}

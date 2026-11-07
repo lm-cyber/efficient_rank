@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar10_s2026_sparse_uniform_ft",
+  "family": "resnet20",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "control",
+  "method": "sparse_uniform_ft",
+  "epochs": 20,
+  "budget": 0.75,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 10,
+    "widths": [
+      12,
+      12,
+      12,
+      24,
+      24,
+      24,
+      47,
+      48,
+      47
+    ]
+  },
+  "params": 200718,
+  "macs": 30395008,
+  "flops": 60790016,
+  "source_snapshot": "source_processes/2358671",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

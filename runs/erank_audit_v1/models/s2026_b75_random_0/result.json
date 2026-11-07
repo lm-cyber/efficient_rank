@@ -1,0 +1,49 @@
+{
+  "phase": "main",
+  "method": "random",
+  "model_seed": 2026,
+  "budget": 0.75,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": 0,
+  "random_seed": 20260750,
+  "sampling_attempts": 134,
+  "params": 203312,
+  "macs": 30395008,
+  "flops": 60790016,
+  "widths": [
+    15,
+    13,
+    10,
+    22,
+    20,
+    23,
+    51,
+    52,
+    45
+  ],
+  "best_val_accuracy": 91.9,
+  "best_epoch": 20,
+  "epochs": 20,
+  "initial_val": {
+    "accuracy": 82.28,
+    "loss": 0.6481164245605469,
+    "n": 5000
+  },
+  "training_seconds": 47.54767680633813,
+  "before": {
+    "accuracy": 56.68,
+    "loss": 2.3898306274414063,
+    "n": 5000
+  },
+  "after_bn": {
+    "accuracy": 82.28,
+    "loss": 0.6481164245605469,
+    "n": 5000
+  },
+  "after_ft": {
+    "accuracy": 91.9,
+    "loss": 0.2684792190551758,
+    "n": 5000
+  }
+}

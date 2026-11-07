@@ -1,0 +1,52 @@
+{
+  "before": {
+    "accuracy": 84.44,
+    "loss": 0.5429971069335937,
+    "n": 2500
+  },
+  "after_bn": {
+    "accuracy": 84.44,
+    "loss": 0.5429971069335937,
+    "n": 2500
+  },
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.5.attn.qkv": 42,
+      "blocks.5.mlp.fc1": 13,
+      "blocks.5.mlp.fc2": 10
+    }
+  },
+  "factor_ranks": {
+    "blocks.5.attn.qkv": 42,
+    "blocks.5.mlp.fc1": 13,
+    "blocks.5.mlp.fc2": 10
+  },
+  "target_macs": 42733612.800000004,
+  "actual_macs": 42732480,
+  "budget_gap_fraction": 2.3857566285713697e-05
+}

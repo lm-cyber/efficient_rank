@@ -1,0 +1,28 @@
+{
+  "phase": "main",
+  "method": "random",
+  "model_seed": 2026,
+  "budget": 0.9,
+  "selection": "qr",
+  "compensation": false,
+  "repeat": 0,
+  "random_seed": 20260900,
+  "sampling_attempts": 123,
+  "epochs": 20,
+  "lr": 0.01,
+  "training_seed": 102026,
+  "params": 245322,
+  "macs": 36477568,
+  "flops": 72955136,
+  "widths": [
+    14,
+    16,
+    13,
+    29,
+    28,
+    28,
+    59,
+    58,
+    59
+  ]
+}

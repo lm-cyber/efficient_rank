@@ -1,0 +1,33 @@
+{
+  "task": "resnet20_cifar100_s2026_ft_b60_random_width",
+  "family": "resnet20",
+  "dataset": "cifar100",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "random_width",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "resnet20",
+    "classes": 100,
+    "widths": [
+      7,
+      9,
+      10,
+      22,
+      24,
+      20,
+      37,
+      39,
+      32
+    ]
+  },
+  "params": 164132,
+  "macs": 24318208,
+  "flops": 48636416,
+  "source_snapshot": "source_processes/2358586",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.01
+}

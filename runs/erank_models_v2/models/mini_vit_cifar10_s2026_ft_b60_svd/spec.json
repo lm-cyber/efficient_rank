@@ -1,0 +1,58 @@
+{
+  "task": "mini_vit_cifar10_s2026_ft_b60_svd",
+  "family": "mini_vit",
+  "dataset": "cifar10",
+  "model_seed": 2026,
+  "phase": "main",
+  "method": "svd",
+  "epochs": 20,
+  "budget": 0.6,
+  "train_seed": 102026,
+  "architecture": {
+    "family": "mini_vit",
+    "classes": 10,
+    "depth": 6,
+    "dim": 96,
+    "heads": 3,
+    "head_dim": 32,
+    "mlp_width": 384,
+    "patch_size": 4,
+    "gated": false,
+    "widths": [
+      384,
+      384,
+      384,
+      384,
+      384,
+      384
+    ],
+    "head_counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "factors": {
+      "blocks.0.mlp.fc1": 12,
+      "blocks.1.attn.qkv": 12,
+      "blocks.1.mlp.fc1": 12,
+      "blocks.2.attn.qkv": 14,
+      "blocks.2.mlp.fc1": 10,
+      "blocks.3.attn.qkv": 15,
+      "blocks.4.attn.qkv": 16,
+      "blocks.4.mlp.fc2": 17,
+      "blocks.5.attn.qkv": 16,
+      "blocks.5.mlp.fc1": 11,
+      "blocks.5.mlp.fc2": 10
+    }
+  },
+  "params": 386218,
+  "macs": 28484544,
+  "flops": 56969088,
+  "source_snapshot": "source_processes/2360823",
+  "ft": true,
+  "sparse": false,
+  "lr": 0.0001
+}

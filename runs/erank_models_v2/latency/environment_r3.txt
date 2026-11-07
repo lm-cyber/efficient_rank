@@ -1,0 +1,2 @@
+name, uuid, driver_version, temperature.gpu, power.draw [W], clocks.current.sm [MHz], clocks.current.memory [MHz]
+NVIDIA A100 80GB PCIe, GPU-46149a7e-281f-ff07-cde6-a78793e0f997, 580.119.02, 36, 127.59 W, 1410 MHz, 1512 MHz
