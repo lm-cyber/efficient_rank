@@ -27,3 +27,6 @@ venv/
 
 # Separate output directories when reproducing the published experiments.
 /runs/*_published/
+
+# Local defense notes (not published).
+/docs/defense_notes.md
