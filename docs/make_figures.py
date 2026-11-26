@@ -133,8 +133,8 @@ def fig_erank_vs_uniform():
     ax.set_yticks([y for y, _ in ylabels], [t for _, t in ylabels], fontsize=11)
     ax.set_ylim(-0.6, len(rows) - 0.4)
     ax.grid(axis="y", visible=False)
-    ax.set_xlabel("ERank − Uniform + QR, п.п. test accuracy  (точка — среднее 3 seed, линия — 95% ДИ без поправки)")
-    ax.text(0, len(rows) - 0.25, "зона ±0,2 п.п.", ha="center", va="bottom", fontsize=10, color=INK2)
+    ax.set_xlabel("Разница точности ERank − Uniform, п.п.  (точка — среднее трёх запусков, отрезок — 95%-й доверительный интервал без поправки)")
+    ax.text(0, len(rows) - 0.25, "ориентир ±0,2 п.п.", ha="center", va="bottom", fontsize=10, color=INK2)
     ax.legend(loc="lower right", ncols=2, fontsize=11)
     save(fig, "erank_vs_uniform.png")
 
@@ -170,8 +170,7 @@ def fig_methods_25():
     for t in axes[0].get_yticklabels():
         if t.get_text().startswith("ERank"):
             t.set_fontweight("bold")
-    fig.supxlabel("Сохранённое качество, % от исходной модели (среднее ± SD, 3 seed); пунктир — 100%",
-                  fontsize=11, color=INK2, y=0.0)
+    fig.supxlabel("Точность относительно исходной модели, %", fontsize=12, color=INK2, y=0.0)
     fig.tight_layout()
     save(fig, "methods_flops25.png")
 
@@ -181,11 +180,11 @@ def fig_speed():
     r = pd.read_csv(RUNS / "erank_models_v2" / "relative_summary.csv")
     r = r[r.budget.isin([0.75, 0.735]) | (r.flops_pct_mean.between(73, 76))]
     panels = [
-        ("ResNet-20 / CIFAR-100, −25% FLOPs", "resnet20", "cifar100",
+        ("ResNet-20, −25% операций", "resnet20", "cifar100",
          [("main", "uniform_qr", "Uniform + QR"), ("main", "l1", "L1"), ("main", "taylor", "Taylor"),
           ("main", "erank_sigma", "ERank-σ"), ("main", "random_width", "Random + QR"),
           ("main", "slimming", "Slimming"), ("main", "svd", "SVD весов"), ("main", "erank_cov", "ERank-cov")]),
-        ("Mini-ViT / CIFAR-100, −25% FLOPs", "mini_vit", "cifar100",
+        ("Mini-ViT, −25% операций", "mini_vit", "cifar100",
          [("main", "uniform_qr", "Uniform: ширина MLP"), ("main", "erank_sigma", "ERank-σ: ширина MLP"),
           ("main", "svd", "SVD весов"), ("architecture_scratch", "attention_only", "Меньше attention heads"),
           ("architecture_scratch", "depth8_dim64", "8 блоков, dim 64"),
@@ -212,8 +211,7 @@ def fig_speed():
                     max(vals) + 0.35 * span if max(vals) > 0 else 0.1 * span)
         ax.set_title(title, fontsize=12)
         ax.grid(axis="y", visible=False)
-    fig.supxlabel("Изменение пропускной способности относительно исходной модели, %  (+ быстрее, − медленнее; "
-                  "A100, BF16, batch 128)", fontsize=11, color=INK2, y=0.0)
+    fig.supxlabel("Изменение числа изображений в секунду относительно исходной модели, %", fontsize=12, color=INK2, y=0.0)
     fig.tight_layout()
     save(fig, "flops_vs_speed.png")
 
@@ -230,19 +228,19 @@ def fig_ade20k():
         ("random_width", "Random + QR", GRAY), ("l1", "L1", GRAY),
     ]
     fig, axes = plt.subplots(1, 2, figsize=(13, 4.6), sharey=True)
-    for ax, (budget, title) in zip(axes, ((0.9, "−10% FLOPs"), (0.8, "−20% FLOPs"))):
+    for ax, (budget, title) in zip(axes, ((0.9, "−10% операций"), (0.8, "−20% операций"))):
         ys = list(range(len(items)))[::-1]
         for y, (m, label, color) in zip(ys, items):
             v = s.loc[(m, budget), "quality_pct_mean"]
             ax.barh(y, v, color=color, height=0.62)
-            ax.text(v + 1, y, fmt(v) + "%", va="center", fontsize=11, color=INK)
-        ax.axvline(100, color=DARK, lw=1, ls=(0, (3, 3)))
-        ax.set_xlim(0, 115)
+            miou = s.loc[(m, budget), "miou_mean"]
+            ax.text(v + 1, y, f"{fmt(v)}%  ({fmt(miou, 2)})", va="center", fontsize=11, color=INK)
+        ax.set_xlim(0, 128)
         ax.set_title(title, fontsize=12)
         ax.grid(axis="y", visible=False)
         ax.set_yticks(ys, [lab for _, lab, _ in items])
-    fig.supxlabel("Сохранённый mIoU, % от исходной модели (40,94 mIoU); среднее 3 seed fine-tuning",
-                  fontsize=11, color=INK2, y=0.0)
+    fig.supxlabel("mIoU относительно исходной модели, %; в скобках — mIoU (исходная модель — 40,94)",
+                  fontsize=12, color=INK2, y=0.0)
     fig.tight_layout()
     save(fig, "ade20k_quality.png")
 
@@ -276,12 +274,12 @@ def fig_immediate_vs_ft():
     comp = qr_immediate + a[a.method == "erank_sigma_compensated"].raw_val_delta_pp.mean()
     rnd = qr_immediate + a[a.method == "erank_sigma_random_channels"].raw_val_delta_pp.mean()
     qr_ft = 91.000  # main summary, ERank-σ, budget 0.75
-    labels = ["Случайные\nканалы", "QR", "QR + линейная\nкомпенсация"]
+    labels = ["Случайный\nотбор", "QR", "QR + линейная\nкомпенсация"]
     immediate = [rnd, qr_immediate, comp]
     final = [sc.loc["erank_sigma_random_channels", "test_mean"], qr_ft, sc.loc["erank_sigma_compensated", "test_mean"]]
     fig, axes = plt.subplots(1, 2, figsize=(11, 3.9), sharey=True)
     for ax, vals, title in zip(axes, (immediate, final),
-                               ("Сразу после удаления каналов (validation)", "После 20 эпох fine-tuning (test)")):
+                               ("Сразу после удаления каналов · валидация", "После 20 эпох · тест")):
         xs = range(3)
         ax.bar(xs, vals, color=[GRAY, BLUE, DARK], width=0.6)
         for x, v in zip(xs, vals):
@@ -290,7 +288,7 @@ def fig_immediate_vs_ft():
         ax.set_ylim(0, 105)
         ax.set_title(title, fontsize=12)
         ax.grid(axis="x", visible=False)
-    axes[0].set_ylabel("Accuracy, %")
+    axes[0].set_ylabel("Точность, %")
     fig.tight_layout()
     save(fig, "immediate_vs_finetuned.png")
 
